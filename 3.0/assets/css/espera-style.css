@@ -1,0 +1,389 @@
+#two, #three, #four, #five, #last, #time, .progress, 
+.main-content .page-content .container-fluid .row .anjoLento {
+    display: none;
+}
+
+.main-content .page-content .container-fluid.sala-espera .row {
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row .card.une,
+.main-content .page-content .container-fluid .row .card.do,
+.main-content .page-content .container-fluid .row .card.tre,
+.main-content .page-content .container-fluid .row .card.four,
+.main-content .page-content .container-fluid .row .card.five,
+.main-content .page-content .container-fluid .row .card.last,
+.main-content .page-content .container-fluid .row .card.esp2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 420px;
+}
+.main-content .page-content .container-fluid .row .card.une picture,
+.main-content .page-content .container-fluid .row .card.do picture,
+.main-content .page-content .container-fluid .row .card.tre picture,
+.main-content .page-content .container-fluid .row .card.four picture,
+.main-content .page-content .container-fluid .row .card.five picture,
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-success.whats,
+.main-content .page-content .container-fluid .row .card.esp2 picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row .card.une picture img,
+.main-content .page-content .container-fluid .row .card.do picture img,
+.main-content .page-content .container-fluid .row .card.tre picture img,
+.main-content .page-content .container-fluid .row .card.four picture img,
+.main-content .page-content .container-fluid .row .card.five picture img,
+.main-content .page-content .container-fluid .row .card.esp2 picture img {
+    width: 80%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+}
+.main-content .page-content .container-fluid .row .card.esp2 picture img {
+    margin-left: 0 !important;
+}
+.main-content .page-content .container-fluid .row .card.une .cardInt,
+.main-content .page-content .container-fluid .row .card.do .cardInt,
+.main-content .page-content .container-fluid .row .card.do .txt2,
+.main-content .page-content .container-fluid .row .card.tre .cardInt,
+.main-content .page-content .container-fluid .row .card.four .cardInt,
+.main-content .page-content .container-fluid .row .card.five .cardInt,
+.main-content .page-content .container-fluid .row .card.five .cardInt2,
+.main-content .page-content .container-fluid .row .card.five form,
+.main-content .page-content .container-fluid .row .card.five .conteudos,
+.main-content .page-content .container-fluid .row .card.five .conteudos .ctn.d-flex .col-md-6,
+.main-content .page-content .container-fluid .row .card.last .btn,
+.main-content .page-content .container-fluid .row .card.last .title,
+.main-content .page-content .container-fluid .row .card.esp2 .txt,
+.main-content .page-content .container-fluid .row .card.esp2 div,
+.main-content .page-content .container-fluid .row .anjoLento .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row .card .cardInt p.h5 {
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.main-content .page-content .container-fluid .row .card .cardInt p.h5,
+.main-content .page-content .container-fluid .row .card.tre picture img,
+.main-content .page-content .container-fluid .row .card.five .cardInt2 p.h5,
+.main-content .page-content .container-fluid .row .card.last .title p.h5,
+.main-content .page-content .container-fluid .row .card.esp2 .txt p.h5 {
+    padding: 0px 0px 20px 0px !important;
+}
+.main-content .page-content .container-fluid .row .card.une .cardInt p.h5,
+.main-content .page-content .container-fluid .row .card.une .cardInt p,
+.main-content .page-content .container-fluid .row .card .cardInt p.h5,
+.main-content .page-content .container-fluid .row .card.do .cardInt p.p2,
+.main-content .page-content .container-fluid .row .card.tre .cardInt p,
+.main-content .page-content .container-fluid .row .card.four .cardInt p,
+.main-content .page-content .container-fluid .row .card.five .cardInt p,
+.main-content .page-content .container-fluid .row .card.five .cardInt2 p.h5,
+.main-content .page-content .container-fluid .row .card.five .cardInt2 p,
+.main-content .page-content .container-fluid .row .card.five .conteudos .ctn.d-flex .col-md-6 p,
+.main-content .page-content .container-fluid .row .card.last .title p,
+.main-content .page-content .container-fluid .row .card.esp2 .txt p,
+.main-content .page-content .container-fluid .row .card.esp2 div p {
+    text-align: center;
+}
+.main-content .page-content .container-fluid .row .card.une .cardInt p,
+.main-content .page-content .container-fluid .row .card.une a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.do .cardInt p.h5,
+.main-content .page-content .container-fluid .row .card.do .txt2 input,
+.main-content .page-content .container-fluid .row .card.do a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.tre .cardInt,
+.main-content .page-content .container-fluid .row .card.tre a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.four a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.five .cardInt p.h5,
+.main-content .page-content .container-fluid .row .card.five .cardInt p,
+.main-content .page-content .container-fluid .row .card.five .cardInt2 p.h5,
+.main-content .page-content .container-fluid .row .card.five .cardInt2 p,
+.main-content .page-content .container-fluid .row .card.five .conteudos a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.last .title p,
+.main-content .page-content .container-fluid .row .card.esp2 .txt p.two,
+.main-content .page-content .container-fluid .row .card.esp2 div p {
+    width: 70% !important;
+}
+.main-content .page-content .container-fluid .row .card.do .cardInt p.p2,
+.main-content .page-content .container-fluid .row .card.four .cardInt p {
+    width: 60%;
+}
+.main-content .page-content .container-fluid .row .card.une a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.do a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.tre a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-footer button.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-footer button.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.four a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.five .conteudos a.btn.btn-blue {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row .card.une a.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.do a.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.tre a.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-footer button.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-footer button.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.four a.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.five .conteudos a.btn.btn-blue i {
+    margin-left: 35%;
+}
+.main-content .page-content .container-fluid .row .card.do .txt2 {
+    margin: 20px 0px;
+}
+.main-content .page-content .container-fluid .row .card.last .btn,
+.main-content .page-content .container-fluid .row .card.do .txt2,
+.main-content .page-content .container-fluid .row .card.five form {
+    width: 100% !important;
+}
+.main-content .page-content .container-fluid .row .card.do .txt2 input {
+    border-radius: 5px;
+    border: 2px solid #DDD;
+    height: 36px;
+}
+.main-content .page-content .container-fluid .row .card.tre a.link,
+.main-content .page-content .container-fluid .row .card.four a.link {
+    color: grey;
+    text-decoration: underline !important;
+    margin-top: 30px;
+}
+
+/* modal */
+
+.main-content .page-content .container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-body,
+.main-content .page-content .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-body p,
+.main-content .page-content .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-body p {
+    padding: 0px 10px 10px 10px;
+}
+.main-content .page-content .container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-body video,
+.main-content .page-content .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-body video,
+.main-content .page-content .container-fluid .row .card.five form textarea,
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-blue.two {
+    margin-bottom: 30px;
+}
+
+/* end modal 1*/
+
+.main-content .page-content .container-fluid .row .card.five form textarea {
+    height: 220px;
+}
+.main-content .page-content .container-fluid .row .card.five form textarea,
+.main-content .page-content .container-fluid .row .card.last .btn a.btn,
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 a.btn.btn-blue {
+    width: 90%;
+}
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-blue.one,
+.main-content .page-content .container-fluid .row .card.esp2 div i {
+    margin-bottom: 10px;
+}
+.main-content .page-content .container-fluid .row .card.five form a.btn.btn-blue {
+    width: 50%;
+}
+.main-content .page-content .container-fluid .row .card.five .conteudos,
+.main-content .page-content .container-fluid .row .card.esp2 div,
+.main-content .page-content .container-fluid .row .card.last {
+    margin-top: 30px;
+}
+.main-content .page-content .container-fluid .row .card.five .conteudos .ctn.d-flex .col-md-6 {
+    padding: 0px !important;
+}
+.main-content .page-content .container-fluid .row .card.five .conteudos .ctn.d-flex .col-md-6 picture.last img {
+    margin-left: 0px !important;
+}
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-success.whats {
+    padding: 5px;
+    background: #5ce593 ;
+    border: 2px solid #5ce593;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-success.whats:hover {
+    background: white ;
+    color: #5ce593;
+    transition: all 0.5s linear;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-success.whats p.aint {
+    margin-bottom: 0px;
+    margin-right: 15%;
+}
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-success.whats picture img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 40px;
+    height:40px;
+}
+.main-content .page-content .container-fluid .row .card.esp2 div i {
+    font-size: 35px;
+} 
+/* card-cor-do-whtas anjo lento */
+.main-content .page-content .container-fluid .row .anjoLento {
+    display: none;
+    background: #5ce593;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px;
+    height: 90px;
+    width: 100%;
+    z-index: 999999;
+    position: fixed;
+    bottom: 0;
+}
+.main-content .page-content .container-fluid .row .anjoLento .txt,
+.main-content .page-content .container-fluid .row .anjoLento .icon i { 
+    color: #FFF;
+}
+.main-content .page-content .container-fluid .row .anjoLento .icon i {
+    cursor: pointer;
+}
+.main-content .page-content .container-fluid .row .anjoLento .txt p {
+    margin-bottom: 5px;
+}
+.main-content .page-content .container-fluid .row .anjoLento .icon {
+    height: 100%;
+}
+.main-content .page-content .container-fluid .row .anjoLento .txt a.btn.btn-green {
+    width: 100%;
+    background-color: white;
+    color: #5ce593;
+}
+.main-content .page-content .container-fluid .row .anjoLento .txt a.btn.btn-green:hover {
+    border: 2px solid #FFF;
+    background: #5ce593;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s linear;
+}
+
+/* end anjo lento */
+
+/* sala-de-espera2 */
+
+.main-content .page-content .container-fluid .row .card.esp2 div a {
+    color: #495057;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 {
+    text-align: center;
+    display: none;
+    max-width: 70%;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .texto {
+    width: 40%;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .texto p {
+    font-size: 12px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .info p {
+    margin-bottom: 3px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .info small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 picture img.avatar {
+    margin-bottom: 10px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .info small picture img {
+    height: auto;
+    width: 104px;
+    object-fit: revert;
+    border-radius: 0;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex picture img,
+.main-content .page-content .container-fluid .row .anjoLento picture img  {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .info p.t1 {
+    margin: 0;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .info p.t2 {
+    margin-bottom: 5px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex a.btn.btn-success {
+    background: #39d477;
+    border: 2px solid #39d477;
+    transition: all .5s linear;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex a.btn.btn-success:hover {
+    background-color: #FFF;
+    color: #39d477;
+}
+.main-content .page-content .container-fluid .row.diferentona {
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row.diferentona .col-sm-4.col-md-4 .card.d-flex .buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+.main-content .page-content .container-fluid .row.diferentona .col-sm-4.col-md-4 .card.d-flex .buttons a {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .main-content .page-content .container-fluid .row.diferentona .col-sm-4.col-md-4 .card.d-flex .buttons {
+        width: 90%;
+    }
+    .main-content .page-content .container-fluid .row .card.une .cardInt p, .main-content .page-content .container-fluid .row .card.une a.btn.btn-blue, .main-content .page-content .container-fluid .row .card.do .cardInt p.h5, .main-content .page-content .container-fluid .row .card.do .txt2 input, .main-content .page-content .container-fluid .row .card.do a.btn.btn-blue, .main-content .page-content .container-fluid .row .card.tre .cardInt, .main-content .page-content .container-fluid .row .card.tre a.btn.btn-blue, .main-content .page-content .container-fluid .row .card.four a.btn.btn-blue, .main-content .page-content .container-fluid .row .card.five .cardInt p.h5, .main-content .page-content .container-fluid .row .card.five .cardInt p, .main-content .page-content .container-fluid .row .card.five .cardInt2 p.h5, .main-content .page-content .container-fluid .row .card.five .cardInt2 p, .main-content .page-content .container-fluid .row .card.five .conteudos a.btn.btn-blue, .main-content .page-content .container-fluid .row .card.last .title p, .main-content .page-content .container-fluid .row .card.esp2 .txt p.two, .main-content .page-content .container-fluid .row .card.esp2 div p, .main-content .page-content .container-fluid .row .card.four .cardInt p {
+        width: 90% !important;
+    }
+    .main-content .page-content .container-fluid .row .card.do .cardInt p.p2 {
+        width: 70% !important;
+    }
+    .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-body video,.container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-body video {
+        width: 300px;
+    }
+    .main-content .page-content .container-fluid .row .card.last {
+        margin-top: 10px;
+    }
+    .main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex {
+        flex-direction: column;
+    }
+    .main-content .page-content .container-fluid .row .col-sm-4.col-md-4 {
+        max-width: 100%;
+    }
+    .main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .texto {
+        width: 90%;
+        padding: 15px 0px;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:374px) {
+        .main-content .page-content .container-fluid .row .col-sm-4.col-md-4 {
+            padding: 0px;
+        }
+        #margin {
+            padding: 0px 8px;
+        }
+    }
+}

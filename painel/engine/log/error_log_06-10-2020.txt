@@ -1,0 +1,16 @@
+
+
+Erro: Código: 42S22 Mensagem: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'datanasc' in 'field list'
+
+ Ocorrido em: 06-10-2020, 11:19:36
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42S22 Mensagem: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'datanasc' in 'field list'
+
+ Ocorrido em: 06-10-2020, 20:14:48
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42S22 Mensagem: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'datanasc' in 'field list'
+
+ Ocorrido em: 06-10-2020, 20:15:29
+ -----------------------------------------------------------------------------------

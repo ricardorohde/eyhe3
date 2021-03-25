@@ -1,0 +1,7 @@
+
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-12-19 04:24'
+    WHERE (remetente != NULL AND leitura IS NUL' at line 2
+
+ Ocorrido em: 19-12-2020, 04:24:58
+ -----------------------------------------------------------------------------------

@@ -1,0 +1,457 @@
+/* chatt */
+/*body, html {
+    overflow: hidden !important;
+}*/
+html body.chatt div#layout-wrapper div.main-content div.page-content div.container-fluid.chat div#cardChat div.chat-conversation-h div.barra-status-10minutos,
+html body.chatt div#layout-wrapper div.main-content div.page-content div.container-fluid.chat div#cardChat div.chat-conversation-h div.barra-status-problemas,
+html body.chatt div#layout-wrapper div.main-content div.page-content div.container-fluid.chat div#cardChat div.chat-conversation-h div.barra-status-aguardando,
+html body.chatt div#layout-wrapper div.main-content div.page-content div.container-fluid.chat div#cardChat div.chat-conversation-h div.barra-status-sucesso {
+    position: absolute;
+    bottom: 70px;
+    width: 100%;
+}
+#messageInput {
+    padding: 0px 0px 0px 15px;
+    font-size: 16px !important;
+}
+#layout-wrapper, .main-content, .page-content, .container-fluid.chat, #cardChat, .chat-conversation-h {
+    height: 100% !important;
+}
+#input-chat {
+    position: absolute;
+    background-color:#FFF;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+html body.chatt #layout-wrapper .main-content .page-content .container-fluid.chat #cardChat .chat-conversation-h form#input-chat .p-3.chat-input-section .row,
+html body.chatt #layout-wrapper .main-content .page-content .container-fluid.chat #cardChat .chat-conversation-h form#input-chat .p-3.chat-input-section,
+html body.chatt #layout-wrapper .main-content .page-content .container-fluid.chat #cardChat .chat-conversation-h form#input-chat .p-3.chat-input-section .row .col,
+html body.chatt #layout-wrapper .main-content .page-content .container-fluid.chat #cardChat .chat-conversation-h form#input-chat .p-3.chat-input-section .row .col-auto.d-flex.justify-content-center.align-items-center {
+    z-index: 1;
+    position: relative;
+}
+#cardPerfil {
+    overflow: hidden scroll;
+}
+#messageBody {
+    position: absolute !important;
+    width: 98%;
+    top: 156px;
+    bottom: 85px;
+}
+#cardChat {
+    margin-bottom: 0;
+}
+.container-fluid.chat {
+    flex: 1;
+}
+body.chatt {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.right{
+    background-color: #2F90FF !important;
+    color: #FFF;
+  }
+  .chat-conversation .conversation-list {
+    max-width: 90%;
+  }
+  .barra-status-sucesso{
+    padding: 6px;
+    color: #fff;
+    background-color: #8ac128;
+    display: none;
+  }
+
+  .barra-status-aguardando{
+    padding: 6px;
+    color: #fff;
+    background-color: #f1c40f;
+    display: none;
+  }
+
+  .barra-status-10minutos{
+    padding: 6px;
+    color: #fff;
+    background-color: #32c2fb;
+    display: none;
+  }
+
+  .barra-status-problemas{
+    padding: 6px;
+    color: #fff;
+    background-color: #ed323e;
+    display: none;
+  }
+
+.main-content .page-content .container-fluid .card div .chat-conversation ul.list-unstyled .simplebar-wrapper .simplebar-mask .simplebar-offset .simplebar-content-wrapper .simplebar-content li .conversation-list .ctext-wrap p.chat-time {
+    text-align: right;
+}
+.main-content .page-content .container-fluid .card div .chat-conversation ul.list-unstyled .simplebar-wrapper .simplebar-mask .simplebar-offset .simplebar-content-wrapper .simplebar-content li.right .conversation-list .ctext-wrap.right {
+    background-color: #2F90FF;
+    color:#FFF;
+}
+.main-content .page-content .container-fluid .card div .p-3.chat-input-section .row .col-auto i {
+    font-size: 20px;
+}
+.main-content .page-content .container-fluid .card div .p-3.chat-input-section .row .col-auto i.fab.fa-telegram-plane {
+    margin-left: 20px;
+}
+.main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-4.col-9 {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-4.col-9 picture img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-8.col-3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-8.col-3 ul.list-inline {
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-8.col-3 ul.list-inline li.list-inline-item {
+    width: 50%;
+    cursor:pointer;
+    margin:0;
+}
+.main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-8.col-3 ul.list-inline li.list-inline-item,
+.main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-8.col-3 ul.list-inline a  {
+    display:flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-8.col-3 ul.list-inline a {
+    width: 50%;
+    color: #495057;
+    padding: 0;
+}
+.main-content .page-content .container-fluid.chat .card.situation .cont ul {
+    padding-left: 10%;
+}
+.main-content .page-content .container-fluid.chat .card.situation .cont ul li,
+.main-content .page-content .container-fluid.chat .card.situation .cont2 ul li,
+.main-content .page-content .container-fluid.chat .card.situation .emergencia ul li,
+.main-content .page-content .container-fluid.chat .card.suicidio ul li,
+.main-content .page-content .container-fluid.chat .card.depressao ul li,
+.main-content .page-content .container-fluid.chat .card.violencia ul li {
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+.main-content .page-content .container-fluid.chat .card.situation .problem .button.d-flex.justify-content-between a.btn.btn-blue {
+    width: 49.5%;
+}
+.main-content .page-content .container-fluid.chat .card.situation .problem .button2 a.btn.btn-blue {
+    width: 100%;
+}
+.main-content .page-content .container-fluid.chat .card.situation .problem .button.d-flex.justify-content-between {
+    margin-bottom: 4px;
+}
+.main-content .page-content .container-fluid.chat .card.situation .emergencia p.h6 {
+    margin-top: 20px;
+}
+#cardSituation, #cardDepressao, #cardViolencia, #cardSuicidio {
+    height: 737px;
+    overflow-y: scroll;
+    display: none;
+}
+#chatdrop {
+    top: 65% !important;
+    left: 73% !important;
+}
+#chatdrop a {
+    width: 100%;
+    justify-content: flex-start;
+    padding: 5px;
+}
+#chatdrop a picture img {
+    width: 18px;
+    margin: 0px 15px;
+}
+#chatdrop a.red {
+    color: #FE6363;
+}
+#verde {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #5CE593;
+}
+#verde p {
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    width: 25%;
+    font-weight: bold;
+}
+.main-content .dica, #verde p {
+color: #fff;
+}
+.main-content .dica {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A52FFF;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    z-index: 9999999;
+    top: 20%;
+    right: 5%;
+}
+.main-content .dica p {
+    margin: 0px;
+    width: 80%;
+}
+.main-content .dica i {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding:10px;
+}
+.main-content .page-content .container-fluid .card.perfil picture img {
+    object-fit: cover;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.main-content .page-content .container-fluid.chat {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.main-content .page-content .container-fluid.chat .card.chat,
+.main-content .page-content .container-fluid.chat .card.perfil .avaliar picture img,
+.main-content .page-content .container-fluid.chat .card.perfil a.btn.btn-blue,
+.main-content .page-content .container-fluid.chat .card.main .card.pag a.btn.btn-blue {
+    width: 100%;
+}
+.main-content .page-content .container-fluid.chat .card.perfil {
+    padding:25px 20px;
+    display: none;
+}
+.main-content .page-content .container-fluid.chat .card.situation,
+.main-content .page-content .container-fluid.chat .card.depressao,
+.main-content .page-content .container-fluid.chat .card.suicidio,
+.main-content .page-content .container-fluid.chat .card.violencia {
+    padding: 0px 20px 20px 20px;
+}
+.main-content .page-content .container-fluid.chat .card.main,
+.main-content .page-content .container-fluid.chat .card.perfil,
+.main-content .page-content .container-fluid.chat .card.situation,
+.main-content .page-content .container-fluid.chat .card.depressao,
+.main-content .page-content .container-fluid.chat .card.suicidio,
+.main-content .page-content .container-fluid.chat .card.violencia {
+    width: 40%;
+    margin-left: 10px;
+}
+.main-content .page-content .container-fluid.chat .card.perfil .text,
+.main-content .page-content .container-fluid.chat .card.perfil p,
+.main-content .page-content .container-fluid.chat .card .card.cartao,
+.main-content .page-content .container-fluid.chat .card.situation .title p.h6,
+.main-content .page-content .container-fluid.chat .card.situation .title p,
+.main-content .page-content .container-fluid.chat .card.situation .cont2 p,
+.main-content .page-content .container-fluid.chat .card.situation .problem p,
+.main-content .page-content .container-fluid.chat .card.situation .emergencia p.h6,
+.main-content .page-content .container-fluid.chat .card.situation .emergencia p,
+.main-content .page-content .container-fluid.chat .card.suicidio p.h6,
+.main-content .page-content .container-fluid.chat .card.suicidio p,
+.main-content .page-content .container-fluid.chat .card.depressao p.h6,
+.main-content .page-content .container-fluid.chat .card.depressao p,
+.main-content .page-content .container-fluid.chat .card.violencia p.h6,
+.main-content .page-content .container-fluid.chat .card.violencia p {
+    text-align: center;
+}
+.main-content .page-content .container-fluid.chat .card.situation .title p,
+.main-content .page-content .container-fluid.chat .card.situation .cont2 p {
+    font-style: italic;
+}
+.main-content .page-content .container-fluid.chat .card .card.cartao a.btn {
+    margin-bottom: 12px;
+}
+.main-content .page-content .container-fluid.chat .card .card.cartao .saldo {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.main-content .page-content .container-fluid.chat .card .card.cartao .saldo p strong {
+    font-size: 25px;
+}
+.main-content .page-content .container-fluid.chat .card .card.cartao .saldo p {
+    font-size: 30px;
+}
+.main-content .page-content .container-fluid.chat .card .card.cartao .button {
+    padding-bottom: 20px;
+}
+.main-content .page-content .container-fluid.chat .card.main {
+    background-color: #f4f4f8;
+}
+.main-content .page-content .container-fluid.chat .card.perfil .text {
+    margin-top: 20px;
+}
+.main-content .page-content .container-fluid.chat .card.perfil .avaliar p {
+    margin: 0;
+}
+.main-content .page-content .container-fluid.chat .card.perfil .avaliar picture {
+    width: 50%;
+}
+.main-content .page-content .container-fluid.chat .card.perfil .avaliar picture img {
+    border-radius: 0;
+    height: auto;
+}
+.main-content .page-content .container-fluid.chat .card.perfil .text p.h2,
+.main-content .page-content .container-fluid.chat .card.situation .title p.h6,
+.main-content .page-content .container-fluid.chat .card.suicidio p.h6 {
+    margin-bottom: 15px;
+}
+.main-content .page-content .container-fluid.chat .card.perfil .avaliar {
+    margin-bottom: 12px;
+}
+.main-content .page-content .container-fluid.chat .card.perfil .theme {
+    margin-bottom: 20px;
+}
+.main-content .page-content .container-fluid.chat .card.perfil p.help {
+    margin-bottom: 25px;
+}
+.main-content .page-content .container-fluid.chat .card.perfil .theme .theme_one.d-flex p {
+    color: #FFF;
+    background-color: #A8A8A8;
+    border-radius: 30px;
+    padding:3% 6%;
+}
+.main-content .page-content .container-fluid.chat .card.perfil .theme .theme_one.d-flex p.p1 {
+    margin-right: 10px;
+}
+#close, #close1, #close2, #close3, #close4, #close5, #close6 {
+    cursor: pointer;
+}
+#close5, #close4, #close6 {
+    padding: 10px 0px 5px 0px;
+}
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#close3 {
+    padding: 10px 0px;
+}
+#close1, #close2, #close3, #close4, #close5, #close6 {
+    display: flex;
+    justify-content: flex-end;
+}
+#close1 {
+    padding: 10px 10px 0px 0px;
+}
+#close2 {
+    margin-bottom: 10px;
+}
+#close8 {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+#cardPag, #cardMain, #cardPIX {
+    display: none;
+}
+#cardPIX {
+    padding: 15px;
+}
+.main-content .page-content .container-fluid.chat .card .card.cartao .button a.btn.btn-blue {
+    width: 90%;
+}
+.main-content .page-content .container-fluid.chat .card.main .card.pag {
+    padding: 15px;
+    margin-bottom: 0;
+}
+.main-content .page-content .container-fluid.chat .card.main .card.pag form {
+    display: flex;
+    flex-direction: column;
+}
+.main-content .page-content .container-fluid.chat .card.main .card.pag form .input input {
+    width: 49%;
+}
+.main-content .page-content .container-fluid.chat .card.main .card.pag form input {
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 2px solid #DDD;
+    margin-bottom: 10px;
+    height: 36px;
+}
+.main-content .page-content .container-fluid.chat .card.main .card.pag a.btn.btn-blue {
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    html body.chatt div#layout-wrapper div.main-content div.page-content {
+        padding-bottom: 5px !important;
+        padding-top: 75px !important;
+    }
+    html body.chatt div#layout-wrapper div.main-content div.page-content div.container-fluid.chat div#cardChat div.chat-conversation-h div.barra-status-10minutos, html body.chatt div#layout-wrapper div.main-content div.page-content div.container-fluid.chat div#cardChat div.chat-conversation-h div.barra-status-problemas, html body.chatt div#layout-wrapper div.main-content div.page-content div.container-fluid.chat div#cardChat div.chat-conversation-h div.barra-status-aguardando, html body.chatt div#layout-wrapper div.main-content div.page-content div.container-fluid.chat div#cardChat div.chat-conversation-h div.barra-status-sucesso {
+        top: 106px;
+        bottom: auto;
+    }
+
+    #messageBody {
+        width: 93%;
+    }
+    body.chatt {
+        height: 90vh;
+    }
+    
+    #cardPerfil, #cardMain, #cardSituation, #cardDepressao, #cardViolencia, #cardSuicidio {
+        margin-left: 0;
+    }
+    #cardPerfil, #cardCartao, #cardMain, #cardSituation, #cardDepressao, #cardViolencia, #cardSuicidio {
+        width: 100%;
+    }
+    .chat-conversation .conversation-list {
+        width: 90%;
+    }
+    #chatdrop {
+        left:auto !important;
+        right: 8% !important;
+    }
+    #verde p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .main-content .dica {
+        width: 90%;
+        right: 5%;
+        top: 15%;
+    }
+    .main-content .page-content .container-fluid.chat {
+        padding: 0px;
+    }
+    .main-content .page-content .container-fluid .card .p-4.border-bottom {
+        padding: 15px 12px !important;
+    }
+    .main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-8.col-3,
+    .main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-8.col-3 ul.list-inline {
+        padding: 0;
+    }
+    .main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-8.col-3 ul.list-inline {
+        width: 100%;
+    }
+    .main-content .page-content .container-fluid .card .p-4.border-bottom .row .col-md-8.col-3 ul.list-inline li.list-inline-item {
+        padding: 0px 17px;
+    }
+    .main-content .page-content .container-fluid .d-lg-flex .w-100.user-chat {
+        display:none !important;
+    }
+}

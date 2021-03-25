@@ -1,0 +1,223 @@
+
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 01:57'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 01:57:57
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 01:58'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 01:58:02
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 02:00'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 02:00:58
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 02:18'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 02:18:38
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 06:53'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 06:53:07
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 06:54'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 06:54:16
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 07:50'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 07:50:10
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 08:10'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 08:10:21
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 08:10'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 08:10:26
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 08:10'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 08:10:35
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 08:22'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 08:22:11
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 08:28'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 08:28:39
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 09:15'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 09:15:29
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 09:24'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 09:24:01
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 09:36'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 09:36:31
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 10:09'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 10:09:03
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 10:09'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 10:09:41
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 10:20'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 10:20:14
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 10:25'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 10:25:53
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 10:26'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 10:26:17
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 10:28'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 10:28:36
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 10:49'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 10:49:16
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 10:49'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 10:49:47
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 10:50'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 10:50:08
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 11:00'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 11:00:55
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 11:13'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 11:13:41
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 11:50'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 11:50:17
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 12:00'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 12:00:13
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 12:01'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 12:01:36
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 12:51'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 12:51:03
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 14:38'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 14:38:05
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 14:38'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 14:38:22
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 18:49'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 18:49:21
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 20:55'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 20:55:45
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 22:00'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 22:00:41
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 22:16'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 22:16:18
+ -----------------------------------------------------------------------------------
+
+Erro: Código: 42000 Mensagem: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SET leitura = '2020-03-02 22:17'
+      WHERE (remetente != 'a_' AND leitura IS N' at line 2
+
+ Ocorrido em: 02-03-2020, 22:17:02
+ -----------------------------------------------------------------------------------

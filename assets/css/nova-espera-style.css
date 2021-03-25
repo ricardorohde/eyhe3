@@ -1,0 +1,725 @@
+#quizmain {
+    width:100%;
+    background-color:#fff;
+}
+#altcontainer {
+    background-color:#fff;
+    font-size:120%;
+    line-height:1.7em;
+}
+    /* The radiocontainer */
+.radiocontainer {
+    background-color:#f1f1f1;
+    display: block;
+    position: relative;
+    padding:10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    word-wrap: break-word;
+    text-align: center;
+    border-radius: 30px;
+}
+    
+    /* Hide the browser's default radio button */
+.radiocontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+    
+    /* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 19px;
+    width: 19px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: none;
+}
+.checkedlabel {
+    background-color:#2196F3;
+    color: #FFF;
+}
+    /* On mouse-over, add a grey background color */
+.radiocontainer:hover input ~ .checkmark {
+    /*nothing*/
+}
+.radiocontainer:hover {
+    background-color: #2196F3;
+    color: #FFF;
+}
+    
+    /* When the radio button is checked, add a blue background */
+.radiocontainer input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+    
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+    
+    /* Show the indicator (dot/circle) when checked */
+.radiocontainer input:checked ~ .checkmark:after {
+    display: block;
+}
+    /* Style the indicator (dot/circle) */
+.radiocontainer .checkmark:after {
+        top: 6px;
+        left: 6px;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: white;
+}
+@media screen and (max-width:600px) {
+    .quizresultbtn {
+            display:block;
+            width:100%;
+    }
+}
+
+#textarea {
+    margin-bottom: 25px;
+    width: 100%;
+    height: 200px;
+}
+
+#switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+#switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+#slider_round {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+#slider_round:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + #slider_round {
+    background-color: #2196F3;
+}
+  
+input:focus + #slider_round {
+    box-shadow: 0 0 1px #2196F3;
+}
+  
+input:checked + #slider_round:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+#slider_round {
+    border-radius: 34px;
+}
+  
+#slider_round:before {
+    border-radius: 50%;
+} 
+
+#layout-wrapper .main-content .page-content .container-fluid.sala-espera .row .card.zero form,
+.main-content .page-content .container-fluid.sala-espera .row #dois5 form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.main-content .page-content .container-fluid.sala-espera .row #four_meio div.d-flex,
+.main-content .page-content .container-fluid.sala-espera .row #four_meio div.d-flex form {
+    width: 100%;
+}
+.main-content .page-content .container-fluid.sala-espera .row #four_meio div.d-flex form {
+    margin-bottom: 30px;
+}
+#layout-wrapper .main-content .page-content .container-fluid.sala-espera .row .card.zero form div.d-flex,
+.main-content .page-content .container-fluid.sala-espera .row #dois5 form div.d-flex {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #DDD;
+    padding: 5px;
+}
+.main-content .page-content .container-fluid.sala-espera .row #four_meio form div.d-flex {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 35%;
+}
+
+#autoEstima {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+#valor {
+    -webkit-appearance: none;
+    background: #d3d3d3;
+    outline: none;
+    width: 100%;
+    height: 20px;
+    border-radius: 9px;   
+}
+#valor::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+
+    background: #2796ee;
+    cursor: pointer;
+}
+
+#valor::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+
+    background: #2796ee;
+    cursor: pointer;
+}
+
+#layout-wrapper .main-content .page-content .container-fluid.sala-espera .row .card.zero form div.d-flex label,
+.main-content .page-content .container-fluid.sala-espera .row #dois5 form div.d-flex label,
+.main-content .page-content .container-fluid.sala-espera .row #four_meio form div.d-flex label {
+    margin: 0px 0px 0px 10px;
+    font-size: 17px;
+}
+.main-content .page-content .container-fluid .row .card.une picture {
+    margin: 30px 0px;
+}
+#bad, #happy, #normal {
+    width: 348px;
+    height: 262px;
+    justify-content: center;
+    align-items: center;
+}
+#bad, #happy, #one, #two, #dois5, #three, #four, #four_meio, #five, #seis, #last, #time, .progress, 
+.main-content .page-content .container-fluid .row .anjoLento {
+    display: none;
+}
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .email.d-flex p,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .sms.d-flex p,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .whats.d-flex p {
+    width: 30%;
+}
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column {
+    width: 100%;
+}
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .email.d-flex ul,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .sms.d-flex ul,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .whats.d-flex ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 12%;
+    background-color: #DDD;
+    height: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .email.d-flex ul li.verde,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .sms.d-flex ul li.verde,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .whats.d-flex ul li.verde {
+    background-color: #31D372;
+    opacity: 1;
+}
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .email.d-flex ul li.verde,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .email.d-flex ul li.vermelho,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .sms.d-flex ul li.verde,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .sms.d-flex ul li.vermelho,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .whats.d-flex ul li.verde,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .whats.d-flex ul li.vermelho {
+    width: 23px !important;
+    height: 23px !important;
+    padding: 0 !important;
+    border-radius: 50%;
+    transition: all .5s linear;
+}
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .email.d-flex ul li.vermelho,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .sms.d-flex ul li.vermelho,
+.main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .whats.d-flex ul li.vermelho {
+    background-color: #F46A6A;
+    opacity: 0;
+} 
+input[type=range] {
+    margin: 10px 0;
+    width: 90%;
+  }
+.main-content .page-content .container-fluid.sala-espera .row #two.card.do .txt2 .iti,
+#telefone {
+    width: 70% !important;
+}
+.main-content .page-content .container-fluid.sala-espera .row {
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row .card.une,
+.main-content .page-content .container-fluid .row .card.do,
+.main-content .page-content .container-fluid .row .card.tre,
+.main-content .page-content .container-fluid .row .card.four,
+.main-content .page-content .container-fluid .row .card.five,
+.main-content .page-content .container-fluid .row .card.last,
+.main-content .page-content .container-fluid .row .card.esp2,
+#layout-wrapper .main-content .page-content .container-fluid.sala-espera .row .card.zero,
+#two,
+#dois5, #four_meio, #seis {
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 420px;
+}
+.main-content .page-content .container-fluid .row .card.une picture,
+.main-content .page-content .container-fluid .row .card.do picture,
+.main-content .page-content .container-fluid .row .card.tre picture,
+.main-content .page-content .container-fluid .row .card.four picture,
+.main-content .page-content .container-fluid .row .card.five picture,
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-success.whats,
+.main-content .page-content .container-fluid .row .card.esp2 picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row .card.une picture img,
+.main-content .page-content .container-fluid .row .card.do picture img,
+.main-content .page-content .container-fluid .row .card.tre picture img,
+.main-content .page-content .container-fluid .row .card.four picture img,
+.main-content .page-content .container-fluid .row .card.five picture img {
+    width: 80%;
+    margin-left: 4%;
+    margin-bottom: 20px;
+}
+.main-content .page-content .container-fluid .row .card.esp2 picture img {
+    width: 80%;
+    margin-left: 4%;
+}
+.main-content .page-content .container-fluid .row .card.esp2 picture img {
+    margin-left: 0 !important;
+}
+.main-content .page-content .container-fluid .row .card.une .cardInt,
+.main-content .page-content .container-fluid .row .card.do .cardInt,
+.main-content .page-content .container-fluid .row .card.do .txt2,
+.main-content .page-content .container-fluid .row .card.tre .cardInt,
+.main-content .page-content .container-fluid .row .card.four .cardInt,
+.main-content .page-content .container-fluid .row .card.five .cardInt,
+.main-content .page-content .container-fluid .row .card.five .cardInt2,
+.main-content .page-content .container-fluid .row .card.five form,
+.main-content .page-content .container-fluid .row .card.five .conteudos,
+.main-content .page-content .container-fluid .row .card.five .conteudos .ctn.d-flex .col-md-6,
+.main-content .page-content .container-fluid .row .card.last .btn,
+.main-content .page-content .container-fluid .row .card.last .title,
+.main-content .page-content .container-fluid .row .card.esp2 .txt,
+.main-content .page-content .container-fluid .row .card.esp2 div,
+.main-content .page-content .container-fluid .row .anjoLento .txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row .card .cardInt p.h5 {
+    font-size: 16px !important;
+    font-weight: 500;
+}
+.main-content .page-content .container-fluid .row .card .cardInt p.h5,
+.main-content .page-content .container-fluid .row .card.tre picture img,
+.main-content .page-content .container-fluid .row .card.five .cardInt2 p.h5,
+.main-content .page-content .container-fluid .row .card.last .title p.h5,
+.main-content .page-content .container-fluid .row .card.esp2 .txt p.h5 {
+    padding: 0px 0px 20px 0px !important;
+}
+.main-content .page-content .container-fluid .row .card.une .cardInt p.h5,
+.main-content .page-content .container-fluid .row .card.une .cardInt p,
+.main-content .page-content .container-fluid .row .card .cardInt p.h5,
+.main-content .page-content .container-fluid .row .card.do .cardInt p.p2,
+.main-content .page-content .container-fluid .row .card.tre .cardInt p,
+.main-content .page-content .container-fluid .row .card.four .cardInt p,
+.main-content .page-content .container-fluid .row .card.five .cardInt p,
+.main-content .page-content .container-fluid .row .card.five .cardInt2 p.h5,
+.main-content .page-content .container-fluid .row .card.five .cardInt2 p,
+.main-content .page-content .container-fluid .row .card.five .conteudos .ctn.d-flex .col-md-6 p,
+.main-content .page-content .container-fluid .row .card.last .title p,
+.main-content .page-content .container-fluid .row .card.esp2 .txt p,
+.main-content .page-content .container-fluid .row .card.esp2 div p {
+    text-align: center;
+}
+.main-content .page-content .container-fluid .row .card.une .cardInt p,
+.main-content .page-content .container-fluid .row .card.une a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.do .cardInt p.h5,
+.main-content .page-content .container-fluid .row .card.do .txt2 input,
+.main-content .page-content .container-fluid .row .card.do a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.tre .cardInt,
+.main-content .page-content .container-fluid .row .card.tre a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.four a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.five .cardInt p.h5,
+.main-content .page-content .container-fluid .row .card.five .cardInt p,
+.main-content .page-content .container-fluid .row .card.five .cardInt2 p.h5,
+.main-content .page-content .container-fluid .row .card.five .cardInt2 p,
+.main-content .page-content .container-fluid .row .card.five .conteudos a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.last .title p,
+.main-content .page-content .container-fluid .row .card.esp2 .txt p.two,
+#go1, #go25, #go45 {
+    width: 70% !important;
+}
+
+.main-content .page-content .container-fluid .row .card.esp2 div #search{
+    width: 100% !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-content .page-content .container-fluid .row .card.esp2 div #search p {
+    width: 54% !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main-content .page-content .container-fluid .row .card.do .cardInt p.p2,
+.main-content .page-content .container-fluid .row .card.four .cardInt p {
+    width: 60%;
+}
+.main-content .page-content .container-fluid .row .card.une a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.do a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.tre a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-footer button.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-footer button.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.four a.btn.btn-blue,
+.main-content .page-content .container-fluid .row .card.five .conteudos a.btn.btn-blue,
+#go1, #go25, #go45 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+input[type=range] {
+    margin: 10px 0;
+    width: 90%;
+  }
+
+.main-content .page-content .container-fluid .row .card.une a.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.do a.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.tre a.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-footer button.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-footer button.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.four a.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.five .conteudos a.btn.btn-blue i,
+.main-content .page-content .container-fluid .row .card.zero a.btn.btn-blue i,
+.main-content .page-content .container-fluid.sala-espera .row .card.dois5 a.btn.btn-blue i,
+.main-content .page-content .container-fluid.sala-espera .row .card.four_meio a.btn.btn-blue i {
+    margin-left: 35%;
+}
+.main-content .page-content .container-fluid .row .card.do .txt2 {
+    margin: 20px 0px;
+}
+.main-content .page-content .container-fluid .row .card.last .btn,
+.main-content .page-content .container-fluid .row .card.do .txt2,
+.main-content .page-content .container-fluid .row .card.five form {
+    width: 100% !important;
+}
+.main-content .page-content .container-fluid .row .card.do .txt2 input {
+    border-radius: 5px;
+    border: 2px solid #DDD;
+    height: 36px;
+}
+.main-content .page-content .container-fluid .row .card.tre a.link,
+.main-content .page-content .container-fluid .row .card.four a.link {
+    color: grey;
+    text-decoration: underline !important;
+    margin-top: 30px;
+}
+
+/* modal */
+
+.main-content .page-content .container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-body,
+.main-content .page-content .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-body p,
+.main-content .page-content .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-body p {
+    padding: 0px 10px 10px 10px;
+}
+.main-content .page-content .container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-body video,
+.main-content .page-content .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-body video,
+.main-content .page-content .container-fluid .row .card.five form textarea,
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-blue.two {
+    margin-bottom: 30px;
+}
+
+/* end modal 1*/
+
+.main-content .page-content .container-fluid .row .card.five form textarea {
+    height: 220px;
+}
+.main-content .page-content .container-fluid .row .card.five form textarea,
+.main-content .page-content .container-fluid .row .card.last .btn a.btn,
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 a.btn.btn-blue {
+    width: 90%;
+}
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-blue.one,
+.main-content .page-content .container-fluid .row .card.esp2 div i {
+    margin-bottom: 10px;
+}
+.main-content .page-content .container-fluid .row .card.five form a.btn.btn-blue {
+    width: 50%;
+}
+.main-content .page-content .container-fluid .row .card.five .conteudos,
+.main-content .page-content .container-fluid .row .card.esp2 div,
+.main-content .page-content .container-fluid .row .card.last {
+    margin-top: 30px;
+}
+.main-content .page-content .container-fluid .row .card.five .conteudos .ctn.d-flex .col-md-6 {
+    padding: 0px !important;
+}
+.main-content .page-content .container-fluid .row .card.five .conteudos .ctn.d-flex .col-md-6 picture.last img {
+    margin-left: 0px !important;
+}
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-success.whats {
+    padding: 5px;
+    background: #5ce593 ;
+    border: 2px solid #5ce593;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-success.whats:hover {
+    background: white ;
+    color: #5ce593;
+    transition: all 0.5s linear;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-success.whats p.aint {
+    margin-bottom: 0px;
+    margin-right: 15%;
+}
+.main-content .page-content .container-fluid .row .card.last .btn a.btn.btn-success.whats picture img {
+    border-radius: 50%;
+    object-fit: cover;
+    width: 40px;
+    height:40px;
+}
+.main-content .page-content .container-fluid .row .card.esp2 div i {
+    font-size: 30px;
+} 
+/* card-cor-do-whtas anjo lento */
+.main-content .page-content .container-fluid .row .anjoLento {
+    display: none;
+    background: #5ce593;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 500px;
+    height: 90px;
+    width: 100%;
+    z-index: 999999;
+    position: fixed;
+    bottom: 0;
+}
+.main-content .page-content .container-fluid .row .anjoLento .txt,
+.main-content .page-content .container-fluid .row .anjoLento .icon i { 
+    color: #FFF;
+}
+.main-content .page-content .container-fluid .row .anjoLento .icon i {
+    cursor: pointer;
+}
+.main-content .page-content .container-fluid .row .anjoLento .txt p {
+    margin-bottom: 5px;
+}
+.main-content .page-content .container-fluid .row .anjoLento .icon {
+    height: 100%;
+}
+.main-content .page-content .container-fluid .row .anjoLento .txt a.btn.btn-green {
+    width: 100%;
+    background-color: white;
+    color: #5ce593;
+}
+.main-content .page-content .container-fluid .row .anjoLento .txt a.btn.btn-green:hover {
+    border: 2px solid #FFF;
+    background: #5ce593;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s linear;
+}
+
+/* end anjo lento */
+
+/* sala-de-espera2 */
+
+.main-content .page-content .container-fluid .row .card.esp2 div a {
+    color: #495057;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 {
+    text-align: center;
+    display: none;
+    max-width: 70%;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .texto {
+    width: 40%;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .texto p {
+    font-size: 12px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .info p {
+    margin-bottom: 3px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .info small {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 picture img.avatar {
+    margin-bottom: 10px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .info small picture img {
+    height: auto;
+    width: 104px;
+    object-fit: revert;
+    border-radius: 0;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex picture img,
+.main-content .page-content .container-fluid .row .anjoLento picture img  {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .info p.t1 {
+    margin: 0;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .info p.t2 {
+    margin-bottom: 5px;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex a.btn.btn-success {
+    background: #39d477;
+    border: 2px solid #39d477;
+    transition: all .5s linear;
+}
+.main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex a.btn.btn-success:hover {
+    background-color: #FFF;
+    color: #39d477;
+}
+.main-content .page-content .container-fluid .row.diferentona {
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row.diferentona .col-sm-4.col-md-4 .card.d-flex .buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+}
+.main-content .page-content .container-fluid .row.diferentona .col-sm-4.col-md-4 .card.d-flex .buttons a {
+    width: 100%;
+    margin-bottom: 5px;
+}
+.cardInt p {
+    text-align: center;
+}
+@media only screen and (min-width:320px) and (max-width:768px) {
+    
+#bad, #happy, #normal {
+    width: 260px;
+    height: 220px;
+}
+
+@media only screen and (min-width:320px) and (max-width:374px) {
+    .main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .email.d-flex ul, .main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .sms.d-flex ul, .main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .whats.d-flex ul {
+        width: 17%;
+    }
+}
+@media only screen and (min-width:375px) and (max-width:420px) {
+    .main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .email.d-flex ul, .main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .sms.d-flex ul, .main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .whats.d-flex ul {
+        width: 15%;
+    }
+}
+@media only screen and (min-width:420px) and (max-width:440px) {
+    .main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .email.d-flex ul, .main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .sms.d-flex ul, .main-content .page-content .container-fluid.sala-espera .row #two .not.d-flex.flex-column .whats.d-flex ul {
+        width: 13%;
+    }
+}
+    
+    .main-content .page-content .container-fluid .row.diferentona .col-sm-4.col-md-4 .card.d-flex .buttons {
+        width: 90%;
+    }
+    .main-content .page-content .container-fluid .row .card.une .cardInt p, .main-content .page-content .container-fluid .row .card.une a.btn.btn-blue, .main-content .page-content .container-fluid .row .card.do .cardInt p.h5, .main-content .page-content .container-fluid .row .card.do .txt2 input, .main-content .page-content .container-fluid .row .card.do a.btn.btn-blue, .main-content .page-content .container-fluid .row .card.tre .cardInt, .main-content .page-content .container-fluid .row .card.tre a.btn.btn-blue, .main-content .page-content .container-fluid .row .card.four a.btn.btn-blue, .main-content .page-content .container-fluid .row .card.five .cardInt p.h5, .main-content .page-content .container-fluid .row .card.five .cardInt p, .main-content .page-content .container-fluid .row .card.five .cardInt2 p.h5, .main-content .page-content .container-fluid .row .card.five .cardInt2 p, .main-content .page-content .container-fluid .row .card.five .conteudos a.btn.btn-blue, .main-content .page-content .container-fluid .row .card.last .title p, .main-content .page-content .container-fluid .row .card.esp2 .txt p.two, .main-content .page-content .container-fluid .row .card.esp2 div p, .main-content .page-content .container-fluid .row .card.four .cardInt p {
+        width: 90% !important;
+    }
+    .main-content .page-content .container-fluid .row .card.do .cardInt p.p2 {
+        width: 70% !important;
+    }
+    .container-fluid .row .card.four #ModalLongoExemplo2 .modal-dialog .modal-content .modal-body video,.container-fluid .row .card.tre #ModalLongoExemplo .modal-dialog .modal-content .modal-body video {
+        width: 300px;
+    }
+    .main-content .page-content .container-fluid .row .card.last {
+        margin-top: 10px;
+    }
+    .main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex {
+        flex-direction: column;
+    }
+    .main-content .page-content .container-fluid .row .col-sm-4.col-md-4 {
+        max-width: 100%;
+    }
+    .main-content .page-content .container-fluid .row .col-sm-4.col-md-4 .card.d-flex .texto {
+        width: 90%;
+        padding: 15px 0px;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:374px) {
+        .main-content .page-content .container-fluid .row .col-sm-4.col-md-4 {
+            padding: 0px;
+        }
+        #margin {
+            padding: 0px 8px;
+        }
+    }
+}

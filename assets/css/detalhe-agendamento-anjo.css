@@ -1,0 +1,38 @@
+/* detalhe agendamento */
+
+.main-content.agend .page-content.agend .container-fluid.agend .row {
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0%;
+}
+.main-content.agend .page-content.agend .container-fluid.agend .row .card.agend {
+    padding: 20px;
+    width: 35%;
+}
+.main-content.agend .page-content.agend .container-fluid.agend .row .card.agend .lane1 .l1,
+.main-content.agend .page-content.agend .container-fluid.agend .row .card.agend .lane1 .l2 {
+    width: 50%;
+}
+.main-content.agend .page-content.agend .container-fluid.agend .row .card.agend .lane1 .l2 a.btn.btn-white {
+    width: 90% !important;
+}
+.main-content.agend .page-content.agend .container-fluid.agend .row .card.agend .lane2 {
+    margin-bottom: 20px;
+}
+.main-content.agend .page-content.agend .container-fluid.agend .row .card.agend .lane1 .l1 p.anjo {
+    margin-bottom: 7px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+/* detalhes agendamento  */
+
+    .main-content.agend .page-content.agend .container-fluid.agend .row .card.agend {
+        width: 90% !important;
+    }
+    .main-content.agend .page-content.agend .container-fluid.agend {
+        padding: 0px;
+    }
+    .main-content.agend .page-content.agend .container-fluid.agend .row .card.agend .lane3.d-flex.justify-content-center a.btn.btn-blue {
+        padding: 5px 20px;
+    }
+}

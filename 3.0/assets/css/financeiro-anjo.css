@@ -1,0 +1,108 @@
+.main-content .page-content .container-fluid .row .col-xl-4 .card {
+    padding:20px;
+    box-shadow: 0.1em 0.1rem 1rem 0.1rem #DDD;
+}
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .divAnjo,
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-line2 .saldo {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    align-items: flex-start;
+    justify-content:center;
+}
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .button, .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .divAnjo, .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line2 .saldo, .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line2 .button, .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line2 .button a.btn.btn-blue {
+    width: 50%;
+}
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .button, .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line2 .button  {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .divAnjo picture img {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .button a, .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line2 .button a.btn.btn-blue {
+    width: 70%;
+}
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .divAnjo p.h5,
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-6 div p.h5 {
+    padding: 0;
+    margin-top: 5% !important;
+}
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .divAnjo p,
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-6 div p.h5 {
+    margin: 0 0 2px 0;
+}
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-line2 .saldo p.saldoint,
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-6 div p.h5,
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-body p.mb-4 {
+    font-size: 20px;
+    font-weight:bold;
+}
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-line2 .button a.btn.btn-blue {
+    padding: 4px 0px !important;
+}
+.main-content .page-content .container-fluid .row .col-xl-4 .card .card-body p.mb-4 {
+    margin-bottom:8px !important;
+}
+.main-content .page-content .container-fluid .row .col-xl-8 .card, .main-content .page-content .container-fluid .row .col-xl-8 .card .card-body .table-responsive .table.table-centered tbody tr td.dez7 .names {
+    display:flex;
+    flex-direction: column;
+}.main-content .page-content .container-fluid .row .col-xl-8 .card .card-body .table-responsive .table.table-centered tbody tr td.dez7 {
+    width: 33%;
+}
+.main-content .page-content .container-fluid .row .col-xl-8 .card {
+    padding-top:10px;
+}
+.main-content .page-content .container-fluid .row .col-xl-8 .card p.h5 {
+    margin: 0;
+    padding: 15px 0px 15px 30px !important;
+}
+.main-content .page-content .container-fluid .row .col-xl-8 i.fas.fa-arrow-right {
+    display: none !important;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .main-content .page-content .container-fluid .row .col-xl-4 .card {
+        padding: 10px;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line2 .button, 
+    .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .button {
+        justify-content: center !important;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .button {
+        padding-left: 10px;
+        margin-top: 20px;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-8 i.fas.fa-arrow-right {
+        display:flex !important;
+        justify-content:flex-end;
+        padding-right:20px;
+        font-size:23px;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line.d-flex, 
+    .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line2 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .divAnjo {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line .button a, .main-content .page-content .container-fluid .row .col-xl-4 .card .card-line2 .button a.btn.btn-blue {
+        width: 100%;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body p.mb-4 {
+        text-align: center;
+    }
+    .main-content .page-content .container-fluid .row .col-xl-4 .card .card-body .row .col-6 {
+        padding: 0;
+        max-width: 100%;
+        flex: 100%;
+        text-align: center;
+    }
+}

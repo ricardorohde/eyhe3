@@ -1,0 +1,88 @@
+.main-content .page-content .container-fluid.avaliar .row {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid.avaliar .row p.h5 {
+    padding: 0;
+    padding-left: 2%;
+}
+.main-content .page-content .container-fluid.avaliar .row p.h5.title_avaliar,
+.main-content .page-content .container-fluid.avaliar .row .card {
+    width: 50%;
+}
+.main-content .page-content .container-fluid.avaliar .row .card {
+    margin-bottom: 0px;
+    border-bottom: 1px solid #DDD;
+    padding: 20px 0px;
+    box-shadow: 0rem 0.3rem 1rem 0.5rem #DDD;
+}
+.main-content .page-content .container-fluid.avaliar .row .card.avalia {
+    padding: 35px 0px 25px 0px;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .button a.btn.btn-blue {
+    width: 80%;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .ava1 .ava1-1 {
+    width: 95%;
+    padding: 5% 0%;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .ava1 .ava1-1 picture {
+    width: 18%;
+    padding-right: 3%;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .ava1 .ava1-1 picture img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .ava1 .ava1-1 .ava_text p {
+    margin: 0;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .ava1 .ava1-1 i {
+    padding-left: 18px;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .ava2 {
+    padding: 0px 0px 20px 0px;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .ava2 .div.d-flex {
+    background-color: #f8f8fb;
+    margin-bottom: 25px;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .ava2 .div.d-flex p.h5 {
+    font-weight: bold;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .ava2 form {
+    display: flex;
+    justify-content: center;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .ava2 form textarea {
+    width: 90%;
+    height: 200px;
+}
+.main-content .page-content .container-fluid.avaliar .row .card .ava2 form select {
+    width: 95%;
+    padding: 5px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .main-content .page-content .container-fluid.avaliar .row .card,
+    .main-content .page-content .container-fluid.avaliar .row p.h5.title_avaliar {
+        width: 100%;
+    }
+    .main-content .page-content .container-fluid.avaliar .row p.h5.title_avaliar {
+       padding-left: 5%;
+    }
+    .main-content .page-content .container-fluid.avaliar .row .card .ava2 form textarea {
+        width: 90% !important;
+    }
+}

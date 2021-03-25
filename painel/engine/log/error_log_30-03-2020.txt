@@ -1,0 +1,11 @@
+
+
+Erro: Código: HY093 Mensagem: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+ Ocorrido em: 30-03-2020, 09:12:37
+ -----------------------------------------------------------------------------------
+
+Erro: Código: HY093 Mensagem: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+
+ Ocorrido em: 30-03-2020, 09:13:29
+ -----------------------------------------------------------------------------------

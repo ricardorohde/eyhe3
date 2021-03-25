@@ -1,0 +1,130 @@
+/*------------------------
+    Featured Area
+------------------------*/
+.about-us-area{
+    padding: 113px 0 120px 0;
+    position: relative;
+    .shape-1{
+        position: absolute;
+        right: 10%;
+        bottom: 10%;
+        animation: upndown 10s linear 0s infinite;
+    }
+    .shape-2{
+        position: absolute;
+        left: 10%;
+        top: 15%;
+        animation: roatate 10s linear 5s infinite;
+        display: inline-block;
+    }
+    .btn-wrapper {
+        text-align: center;
+        margin-top: 60px;
+        .boxed-btn{
+            margin: 0 10px;
+        }
+    }
+    &.style-two{
+        padding-top: 118px;
+        padding-bottom: 80px;
+        .section-title{
+            padding-right: 100px;
+        }
+        .feature-list{
+            flex-wrap: wrap;
+            border: none;
+            .single-feature-list{
+                margin-bottom: 20px;
+                width: 50%;
+                border: none;
+                padding: 0 20px;
+                text-align: left;
+                .icon{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    
+}
+.feature-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    border: 2px solid #ededed;
+    &.white{
+        border-color: rgba($white,.2);
+    }
+    .single-feature-list{
+        &.white{
+            border-right: 2px solid rgba($white,.2);
+            .content{
+                .title{
+                    a{
+                        color: $white;
+                    }
+                }
+                p{
+                    color: rgba($white,.7);
+                }
+            }
+        }
+        display: block;
+        text-align: center;
+        padding: 60px 20px 40px 20px;
+        border-right: 2px solid #ededed;
+        &:hover{
+            .icon{
+                @include transform(rotateY(360deg));
+            }
+        }
+        &:last-child{
+            border-right: none;
+        }
+        .icon{
+            font-size: 40px;
+            display: inline-block;
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            color: $white;
+            margin-bottom: 15px;
+            @include transition($transition);
+            &.icon-bg-1{
+                background-image: url(../img/icon-bg/01.png);
+                background-repeat: no-repeat;
+            }
+            &.icon-bg-2{
+                background-image: url(../img/icon-bg/02.png);
+                background-repeat: no-repeat;
+            }
+            &.icon-bg-3{
+                background-image: url(../img/icon-bg/03.png);
+                background-repeat: no-repeat;
+            }
+            &.icon-bg-4{
+                background-image: url(../img/icon-bg/04.png);
+                background-repeat: no-repeat;
+            }
+        }
+        .content{
+            .title{
+                font-size: 22px;
+                line-height: 32px;
+                font-weight: 600;
+                margin-bottom: 15px;
+                a{
+                    color: $heading-color;
+                    @include transition($transition);
+                    &:hover{
+                        color: $base-color;
+                    }
+                }
+            }
+            p{}
+        }
+    }
+}

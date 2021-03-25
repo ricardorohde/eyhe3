@@ -1,0 +1,118 @@
+.main-content.conf-agend .page-content .container-fluid .row.justify-content-center {
+    padding: 5% 0%;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .card {
+    padding: 20px;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .card .div.d-flex {
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .card .div.d-flex .saldo,
+.main-content .page-content .container-fluid .row.justify-content-center .card .div.d-flex .recarga-cartao,
+.main-content .page-content .container-fluid .row.justify-content-center .card .div.d-flex .confirm {
+    width: 100% !important;
+    margin-bottom: 30px;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .card .div.d-flex .saldo,
+.main-content .page-content .container-fluid .row.justify-content-center .card .div.d-flex  {
+    padding-left: 20px;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .card .div.d-flex .recarga-cartao a.btn {
+    width: 70% !important;
+    margin-bottom: 10px;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .card .div.d-flex .confirm {
+    text-align: center;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .card .div.d-flex .confirm a.btn.btn-blue {
+    width: 85%;
+}
+#boxintro {
+    height: 100%;
+}
+#card-one {
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#card-one p.h4 {
+    margin-bottom: 30px;
+}
+.main-content .page-content .container-fluid .row .divbox .boxintro,
+.bgbox, #fundos {
+    width: 100% !important;
+}
+.main-content .page-content .container-fluid .row .divbox .boxintro {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+}
+
+.main-content .page-content .container-fluid .row .divbox .boxintro .card.one {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.main-content .page-content .container-fluid .row .divbox .boxintro .card.one p,
+#reembolso p {
+    text-align: center;
+}
+.main-content .page-content .container-fluid .row .divbox .boxintro .card.one a.btn.btn-white,
+.main-content .page-content .container-fluid .row .divbox .boxintro .card.one p {
+    margin-bottom: 20px;
+}
+.main-content .page-content .container-fluid #divbox2.divbox #boxintro.boxintro #card-one.card.one a{
+    margin-bottom: 10px;
+    width: 70% !important;
+}
+
+#bgbox2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 999999;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+#divbox2 {
+    position: fixed;
+    z-index: 999999;
+    left: 53%;
+    top: 45%;
+    width: 450px;
+    height: 500px;
+    background-color: #FFF;
+    margin: -220px 0px 0px -270px;
+    display: none;
+    background-color: #f8f8fb;
+}
+@media only screen and (min-width:320px) and (max-width:768px) { 
+    .main-content .page-content .container-fluid #divbox2.divbox #boxintro.boxintro #card-one.card.one a {
+        width: 80% !important;
+    }   
+    @media only screen and (min-width:320px) and (max-width:370px) {
+        #divbox2 {
+            width: 320px !important;
+            left: 84.5% !important;
+        }
+    }
+    @media only screen and (min-width:371px) and (max-width:400px) {
+        #divbox2 {
+            width: 370px !important;
+            left: 72.7% !important;
+        }
+    }
+    @media only screen and (min-width:400px) and (max-width:430px) {
+        #divbox2 {
+            width: 380px !important;
+            left: 68.7% !important;
+        }
+    }
+}

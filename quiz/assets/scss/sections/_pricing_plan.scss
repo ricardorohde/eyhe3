@@ -1,0 +1,98 @@
+/*--------------------------
+    Pricing Plan Area
+---------------------------*/
+.pricing-plan-area{
+    padding: 112px 0 120px 0;
+    &.pricing-plan-bg{
+        background-image: url(../img/bg/pricing_plan.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    &.dark-bg{
+        background-image: url(../img/bg/price-plan-dark-bg.png);
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+.single-price-plan-01{
+    text-align: center;
+    background-color: rgba(#7947e0,.4);
+    border: 1px solid rgba($white,.3);
+    border-radius: 5px;
+    padding: 52px 0 60px 0;
+    @include transition($transition);
+    &.white{
+        background-color: #131332;
+    }
+    &:hover{
+        background-color: $white;
+        .price-header{
+            .name{
+                color: $heading-color;
+            }
+            .price-wrap{
+                .price{
+                    color: $heading-color;
+                }
+                .month{
+                    color: $descr-color;
+                }
+            }
+        }
+        .price-body{
+            ul{
+                li{
+                    color: $descr-color;
+                }
+            }
+        }
+    }
+    .price-header{
+        .name{
+            font-size: 18px;
+            line-height: 28px;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: $white;
+            @include transition($transition);
+        }
+        .price-wrap{
+            margin-bottom: 36px;
+            .price{
+                font-size: 48px;
+                line-height: 58px;
+                color: $white;
+                @include transition($transition);
+            }
+            .month{
+                color: rgba($white,.8);
+                @include transition($transition);
+            }
+        }
+    }
+    .price-body{
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            li{
+                display: block;
+                margin: 15px 0;
+                color: rgba($white,.8);
+                @include transition($transition);
+                &:first-child{
+                    margin-top: 0;
+                }
+                &:last-child{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .price-footer{
+        margin-top: 48px;
+        display: block;
+    }
+}

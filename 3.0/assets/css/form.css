@@ -1,0 +1,182 @@
+button.btn-blue {
+    color: #FFF !important;
+    background-color: #2f90ff !important;
+    border: 2px solid #2f90ff !important;
+    width: 50% !important;
+}
+button.btn-blue:hover {
+    background-color: #FFF !important;
+    color: #2f90ff !important;
+    border: 2px solid #2f90ff !important;
+    transition: all .5s ease-in !important;
+}
+
+button.btn-white {
+    background-color: #FFF !important;
+    color: #2f90ff !important;
+    border: 2px solid #2f90ff !important;
+    width: 50% !important;
+}
+button.btn-white:hover {
+    color: #FFF !important;
+    background-color: #2f90ff !important;
+    border: 2px solid #2f90ff !important;
+    transition: all .5s ease-in !important;
+}
+.main-content .page-content .container-fluid .row .col-lg-12.formwiz {
+    padding: 4% 15%;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard ul.twitter-bs-wizard-nav.nav-justified.nav.nav-pills li.nav-item a.nav-link,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard .tab-content #progress-company-document div form p,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form p,
+.main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard #ul_next li a {
+    text-align: center;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard ul.twitter-bs-wizard-nav.nav-justified.nav.nav-pills i {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-seller-details form .row picture {
+    width: 300px;
+    height: 300px;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-seller-details form .row picture img,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-seller-details form .row ul.pager,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-seller-details form .row ul.pager li.next,
+.main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard ul.twitter-bs-wizard-nav #modalExemplo .modal-dialog .modal-body picture img,
+.main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard #ul_next li a {
+    width: 100% !important;
+}
+.main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard ul.twitter-bs-wizard-nav #modalExemplo .modal-dialog .modal-content .modal-footer {
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard ul.twitter-bs-wizard-nav #modalExemplo .modal-dialog .modal-content .modal-footer button {
+    width: 50% !important;
+    padding: 5px !important;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-seller-details form .row,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard .tab-content #progress-company-document div form .row {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-seller-details form .row a.btn.btn-primary.btn-blue,
+.main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard #ul_next li {
+    width: 35%;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard .tab-content #progress-company-document div form .row .yes p,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard .tab-content #progress-company-document div form .row .no p,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard .tab-content #progress-company-document div form .row .maybe p,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_one .input p,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_one .input_one p,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_one .input_two p,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_one .input_three p, 
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_two .input p,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_two .input_one p,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_two .input_two p,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_two .input_three p,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-confirm-detail .row.justify-content-center .d-flex p{
+    margin: 0px 0px 0px 15px !important;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard .tab-content #progress-company-document div form .row .yes,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard .tab-content #progress-company-document div form .row .no,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard .tab-content #progress-company-document div form .row .maybe {
+    width: 10%;
+    margin-left: 3%;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-company-document {
+    padding: 5% 0% 10% 0%;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_one,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_two {
+    display: flex;
+    flex-direction: column;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row.justify-content-around {
+    padding: 0% 25%;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_one .input,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_one .input_one,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_one .input_two,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_one .input_three, 
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_two .input,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_two .input_one,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_two .input_two,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_two .input_three,
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-confirm-detail .row.justify-content-center .d-flex {
+    margin-bottom: 5px !important;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-confirm-detail.tab-pane .row.justify-content-center div p {
+    margin: 0px;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-confirm-detail.tab-pane .row.justify-content-center {
+    align-items: center;
+    flex-direction: column;
+}
+.main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard #ul_next {
+    display: none;
+} 
+.main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard #ul_next {
+    justify-content: space-around !important;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard ul.twitter-bs-wizard-nav.nav-justified.nav.nav-pills button {
+    width: 7.5% !important;
+}
+.twitter-bs-wizard .twitter-bs-wizard-nav .nav-link.active .step-number {
+    background-color: #2f90ff !important;
+    color: #FFF !important;
+}
+.twitter-bs-wizard .twitter-bs-wizard-nav .step-number {
+    border: 2px solid #2f90ff !important;
+    color: #2f90ff !important;
+}
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard .tab-content.twitter-bs-wizard-tab-content #progress-seller-details form#form .row p {
+        text-align: center;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard ul.twitter-bs-wizard-nav.nav-justified.nav.nav-pills button {
+        width: 12.8% !important;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard.twitter-bs-wizard ul.twitter-bs-wizard-nav.nav-justified.nav.nav-pills {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard.twitter-bs-wizard ul.twitter-bs-wizard-nav.nav-justified.nav.nav-pills li.nav-item {
+        flex-grow: 0 !important;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12.formwiz {
+        padding: 0px;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard #ul_next {
+        justify-content: space-around;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard .tab-content #progress-company-document div form .row .yes, .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard .tab-content #progress-company-document div form .row .no, .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard .tab-content #progress-company-document div form .row .maybe {
+        width: 20%;
+        margin-left: 0px;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_one,
+    .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row .div_two {
+        width: inherit;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-bank-detail.tab-pane div form .row {
+        justify-content: space-around !important;
+    }
+    .twitter-bs-wizard .twitter-bs-wizard-nav .step-number {
+        margin: 0px !important;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard ul.twitter-bs-wizard-nav.nav-justified.nav.nav-pills {
+        padding: 10px;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard ul.twitter-bs-wizard-nav.nav-justified.nav.nav-pills button,.main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard.twitter-bs-wizard ul.twitter-bs-wizard-nav.nav-justified.nav.nav-pills li.nav-item a.nav-link  {
+        padding: 0px !important;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-seller-details form .row picture {
+        width: 250px;
+        height: 200px;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body #progrss-wizard.twitter-bs-wizard .tab-content.twitter-bs-wizard-tab-content #progress-seller-details form .row a.btn.btn-primary.btn-blue, .main-content .page-content .container-fluid .row .col-lg-12.formwiz .card .card-body #progrss-wizard #ul_next li {
+        width: 45%;
+    }
+}

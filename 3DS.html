@@ -1,0 +1,66 @@
+<html>
+<script type="text/javascript" src="https://js.ebanxpay.com/assets/songbird/songbird-dev.js"></script> <!-- use dev or prod according to your needs -->
+<script type="text/javascript" src="https://js.ebanxpay.com/ebanx-libjs-latest.min.js"></script>
+
+
+  <script>
+
+      // /https://developers.ebanxpagamentos.com/guides/debit-cards-with-3ds-2/
+
+      EBANX.config.setMode('test'); // Set mode. production/test
+      EBANX.config.setPublishableKey('DdKdBUyq_dNvsUNvtMSR1c3BCLINqk7V8CEbAiyNZxE'); // Set your Publishable key.
+      EBANX.config.setCountry('br'); // Set your checkout country (Alpha-2) (see: https://en.wikipedia.org/wiki/ISO_3166-1).
+
+        const orderInformation = {
+          amountDetails: {
+            totalAmount: "10.04",
+            currency: "BRL",
+          },
+          billTo: {
+            address1: "Rua Estanislau Szarek",
+            administrativeArea: "PR",
+            country: "BR",
+            email: "1584023172@exemplo.com.br",
+            homePhone: "41999999999",
+            locality: "Curitiba",
+            postalCode: "81315380",
+            mobilePhone: "41999999999",
+          },
+        };
+
+        const paymentInformation = {
+          card: {
+            number: "4000000000001000",
+            expirationMonth: "01",
+            expirationYear: "23",
+            holderName: "JOAO DA SILVA",
+          },
+        };
+
+        const personalIdentification = {
+          id: "97370192024",
+          type: "CPF",
+        };
+
+        const options = {
+          orderInformation,
+          paymentInformation,
+          personalIdentification,
+        };
+
+        const shouldAuthenticatePromise = EBANX.threedsecure.checkIfShouldAuthenticate(options);
+        console.log(shouldAuthenticatePromise);
+
+
+        shouldAuthenticatePromise.then( response => {
+          if (response) {
+            threedsPromise = EBANX.threedsecure.run(options);
+            console.log(threedsPromise);
+            threedsPromise.then(successCallback, failureCallback);
+          }
+        });
+
+
+
+  </script>
+</html>

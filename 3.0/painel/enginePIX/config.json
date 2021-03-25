@@ -1,0 +1,21 @@
+{
+    "sandbox": true,
+    "chave": "guimenegussi@gmail.com",
+    "recebedor": "Guilherme Menegussi",
+    "homologacao": {
+        "nome_certificado": "certificado.pem",
+        "client_id": "Client_Id_bb6a635f34783f8fdd2bff64e0f3dafe01994fe7",
+        "client_secret": "Client_Secret_c05fdcd8f209c248c93002c6a974f093a83fad7a﻿",
+        "pix_url_auth": "https://api-pix-h.gerencianet.com.br/oauth/token",
+        "pix_url_cob": "https://api-pix-h.gerencianet.com.br/v2/cob",
+        "pix_url": "https://api-pix-h.gerencianet.com.br/v2/pix"
+    },
+    "producao": {
+        "nome_certificado": "productionCertificate.pem",
+        "client_id": "Client_Id_bb6a635f34783f8fdd2bff64e0f3dafe01994fe7",
+        "client_secret": "Client_Secret_c05fdcd8f209c248c93002c6a974f093a83fad7a",
+        "pix_url_auth": "https://api-pix.gerencianet.com.br/oauth/token",
+        "pix_url_cob": "https://api-pix.gerencianet.com.br/v2/cob",
+        "pix_url": "https://api-pix.gerencianet.com.br/v2/pix"
+    }
+}

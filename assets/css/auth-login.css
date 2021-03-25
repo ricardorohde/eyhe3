@@ -1,0 +1,105 @@
+.account-pages .container .row.row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .card-body .p-2 form .form-group .iti {
+    width: 100% !important;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary {
+    background-color: #FFF !important;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .social-btn {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .text-primary.p-3.d-flex.justify-content-center {
+    padding: 50px 0px 25px 0px !important;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .text-primary.p-3 h5.text-primary {
+    text-align: center;
+    color: #525252 !important;
+    width: 85%;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .social-btn a.btn.face,
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .social-btn a.btn.google {
+    color: #FFF;
+    width: 80%;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    display: flex;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .social-btn a.btn.face {
+    background-color: #556ee6 !important; 
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .social-btn a.btn.google {
+    background-color: #f46a6a !important;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .social-btn a.btn.face i.fab.fa-facebook-f,
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .social-btn a.btn.google i.fab.fa-google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .social-btn a.btn.face p,
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .social-btn a.btn.google p {
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    margin-right: 9%;
+    font-size: 13px;
+}
+
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 p {
+    text-align: center;
+    margin: 25px 0px;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .card-body.pt-0 .p-2 .form-horizontal .mt-3 {
+    display: flex;
+    justify-content: center;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .card-body.pt-0 .p-2 .form-horizontal .mt-3 button,
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .card-body.pt-0 .p-2 .form-horizontal .mt-4 button {
+    background-color: #2f90ff !important;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .mt-5.text-center div p a.font-weight-medium.text-primary {
+    color: #2f90ff;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .mt-5.text-center div p a.font-weight-medium.text-primary strong {
+    color: #525252 !important;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .card-body.pt-0 .p-2 .form-horizontal .custom-control.custom-checkbox label.custom-control-label {
+    width: 85%;
+}
+
+/* 
+auth-recoverpw.css
+*/
+html.html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body.body {
+    max-width: 100%;
+    width: 100%;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12 .text-primary.p-4 h5.text-primary {
+    color: #FFF !important;
+    text-align: center;
+    margin: 0;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .card-body.pt-0 .p-2 .form-horizontal .form-group.row.mb-0 .col-12.text-right {
+    display: flex;
+    justify-content: center;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .bg-soft-primary .row .col-12.blue,
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .card.overflow-hidden .card-body.pt-0 .p-2 .form-horizontal .form-group.row.mb-0 .col-12.text-right button.btn.btn-primary {
+    background-color: #2f90ff !important;
+    margin-bottom: 10%;
+    border: 0;
+}
+body .account-pages.my-5.pt-sm-5 .container .row.justify-content-center .col-md-8.col-lg-6.col-xl-5 .mt-5.text-center a {
+    color: #2f90ff !important;
+}

@@ -1,0 +1,6 @@
+
+
+Erro: Código: HY093 Mensagem: SQLSTATE[HY093]: Invalid parameter number: mixed named and positional parameters
+
+ Ocorrido em: 06-11-2020, 17:06:16
+ -----------------------------------------------------------------------------------

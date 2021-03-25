@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css?family=Archivo+Narrow");
+
+#chartdiv {
+  width: 100%;
+  height: 100%;
+}
+#chartdiv div svg g g g g g[aria-labelledby="id-71-title"] {
+    display: none;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row.score {
+    margin-top: 0;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row.score .col-lg-12 {
+    height: 220px;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row.score .col-lg-12 .l1.d-flex {
+    height: 100%;
+    flex-direction: column;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row.score .col-lg-12 .l1.d-flex .divOne.score {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .row.justify-content-center p.h3 {
+    padding: 0;
+}
+.main-content #exampleModalCenter.modal .modal-dialog.modal-dialog-centered .modal-content .modal-body p.h2 {
+    padding: 20px;
+    text-align: center;
+}
+.main-content #exampleModalCenter.modal .modal-dialog.modal-dialog-centered .modal-content .modal-body picture img {
+    width: 100px;
+    height: 100px;
+    border-radius:50%;
+}
+.main-content .page-content .container-fluid.dash-angel {
+    padding: 0px 2.5%;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex.title {
+    flex-direction: column;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex.title p.h5,
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 .l1 a.btn.btn-primary.btn-white,
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control2,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .divbtn {
+    width:100% !important;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex.title p.h5,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body p.h5,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .row.justify-content-between .card .card-body p.h5 {
+    padding: 20px 0px !important;
+    background-color:#f8f7fb;
+    border-radius:5px;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control2 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control2 .c-btn.d-flex,
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .c-btn.d-flex {
+    width:33%;
+    justify-content: flex-end;
+}.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control2 .c-btn.d-flex picture.points,
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .c-btn.d-flex picture.points {
+    width:15px;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control2 .c-btn.d-flex picture.points img,
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .c-btn.d-flex picture.points img {
+    width: auto !important;
+    height: auto !important;
+    border-radius: 0px;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control, .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row.justify-content-center p {
+    width: 50%;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control .texto {
+    margin-left: 5%;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control .texto p.t1 {
+    margin-bottom: 3px;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control .texto p.t2 {
+    margin: 0;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .c-btn.d-flex.show .dropdown-menu.show {
+    left: 83% !important;
+    right: 0px !important;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex picture{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex picture img,
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 .l1 picture img {
+    object-fit:cover;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius:50%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title .control2 .c-btn.d-flex .dropdown-menu a.dropdown-item picture,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex .c-btn.d-flex .dropdown-menu a.dropdown-item.d-flex picture,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .row.justify-content-between .card .card-body .row .col-lg-12 .l1 .dropdown .dropdown-menu a.dropdown-item i {
+    margin-right: 10%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title .control2 .c-btn.d-flex .dropdown-menu a.dropdown-item picture img,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex .c-btn.d-flex .dropdown-menu a.dropdown-item.d-flex picture img {
+    width: 18px !important;
+    border-radius: 0;
+    height: auto !important;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .row.justify-content-between .card .card-body .row .col-lg-12 a.btn.btn-primary.btn-blue {
+    width: 70%;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex a.btn.btn-success {
+    background-color:#39d477;
+    border: 2px solid #39d477;
+    transition: all .5s linear;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex a.btn.btn-success:hover {
+    background-color: #fff;
+    color: #39d477;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12,
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex.title p.h5,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body p.h5,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .row.justify-content-between .card .card-body p.h5,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row.justify-content-center p,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .divbtn,
+#layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title .control2 .c-btn.d-flex #atender.modal .modal-dialog .modal-content .modal-body p.h4,
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control.d-flex .texto,
+#layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title .control2 .c-btn.d-flex #atender.modal .modal-dialog .modal-content .modal-body p.none {
+    text-align: center !important;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 .l1 {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 12px;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 .l1 .np p,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex p {
+    margin: 0 !important;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 .l1 .dropdown {
+    width: 30% !important;
+}
+html body #layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .row.justify-content-between .card .card-body .row .col-lg-12 .l1 .np {
+    width:50% !important;
+    overflow: hidden;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 .l1 .dropdown #editar2 a.dropdown-item {
+    padding: 5px 12px;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 .l1 .dropdown #editar2 a.dropdown-item i {
+    margin-right: 10%;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 .l1 a.btn.btn-primary.btn-white {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height:35px;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .row.justify-content-between {
+    padding:0px 12px;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .row.justify-content-between .card {
+    padding: 0;
+    width: 48%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row {
+    margin-top: 4%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex {
+    justify-content:space-between;
+    align-items:center;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex .divThree, .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex .divTwo {
+    width: 33%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex .divTwo.score,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex .divOne.score {
+    width: 20%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex .divTwo p {
+    padding-left: 15%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex div.green, .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex div.red, .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex div.orange {
+    height:3px;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex div.green {
+    background-color: #34C38F;
+    width:90%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex div.red {
+    background-color: #FE6363;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex div.red,
+#layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title .control2 .c-btn.d-flex #atender.modal .modal-dialog .modal-content .modal-body p.none  {
+    width:70%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex div.orange {
+    background-color:#F1B44C;
+    width:50%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card {
+    padding: 0px;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body, .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .row.justify-content-between .card .card-body {
+    padding-top:10px;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex {
+    text-align: left !important;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro {
+    height:320px;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .divbtn {
+    padding-top: 10%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .divbtn.d-flex.justify-content-center a.btn.btn-blue {
+    display:flex;
+    width:50% !important;
+    justify-content:flex-end;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .divbtn.d-flex.justify-content-center a.btn.btn-blue p {
+    margin:0;
+    width: 65%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .divbtn.d-flex.justify-content-center a.btn.btn-blue p,
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .divbtn.d-flex.justify-content-center a.btn.btn-blue i {
+    text-align: right;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .divbtn.d-flex.justify-content-center a.btn.btn-blue i {
+    width: 35% !important;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .row.justify-content-center p {
+    margin:0;
+    padding-top:5%;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .row.justify-content-center p a {
+    text-decoration: underline !important;
+    color: #495057;
+    font-weight: bold;
+}
+.main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control.d-flex .texto {
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex .divOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex .divOne i {
+    margin-right: 10px;
+    color: #FFF;
+    font-size: 18px;
+}
+/* modal body */
+
+
+#layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title .control2 .c-btn.d-flex #atender.modal .modal-dialog .modal-content .modal-body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:2rem;
+}
+#layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title .control2 .c-btn.d-flex #atender.modal .modal-dialog .modal-content .modal-body picture {
+    width:100%;
+    margin-bottom:40px;
+}
+#layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title .control2 .c-btn.d-flex #atender.modal .modal-dialog .modal-content .modal-body picture img {
+    width: 100px !important;
+    height: 100px !important;
+}
+#layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title .control2 .c-btn.d-flex #atender.modal .modal-dialog .modal-content .modal-body p.none {
+    margin-bottom: 15%;
+}
+#layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title .control2 .c-btn.d-flex #atender.modal .modal-dialog .modal-content .modal-body a.btn.btn-blue {
+    width:60%;
+}
+#layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title .control2 .c-btn.d-flex #atender.modal .modal-dialog .modal-content .modal-body .close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex .divTwo p {
+    font-size: 20px;
+    color: #FFF;
+    text-align: center;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex .divOne p {
+    font-size: 16px;
+    color: #FFF;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex {
+    border-radius: 7px;
+    padding: 14px;
+    margin-bottom: 10px;
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex.blue {
+    background-color: rgb(47, 144, 255);
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex.green {
+    background-color: rgb(52, 195, 143);
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex.red {
+    background-color: rgb(254, 99, 99);
+}
+.main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card .card-body .row .col-lg-12 .l1.d-flex.purple {
+    background-color: rgb(128, 0, 128);
+}
+
+/* end modal */
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .main-content .page-content .container-fluid.dash-angel {
+        justify-content:center;
+    }
+    .main-content .page-content .container-fluid.dash-angel,
+    .main-content .page-content .container-fluid.dash-angel .row.justify-content-center,
+    .main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 {
+        padding:0;
+    }
+    .main-content .page-content .container-fluid.dash-angel .row.justify-content-center {
+        margin:0;
+    }
+    .main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex picture img, .main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 .l1 picture img{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .main-content .page-content .container-fluid.dash-angel .row.justify-content-center,
+    #layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .row.justify-content-between .card {
+        width:100%;
+    }
+    .main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control.d-flex {
+        width: 80% !important;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex {
+        flex-direction: row;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .card.d-flex.title,
+    #layout-wrapper .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-8 .row.justify-content-between {
+        flex-direction: column;
+    }
+    .main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control.d-flex picture {
+        width:25% !important;
+    }
+    .main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control.d-flex .texto {
+        width:149px !important;
+        overflow: hidden;
+        margin-left:0px !important;
+    }
+    .main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .c-btn.d-flex.show .dropdown-menu.show {
+        left:56% !important;
+    }
+    .main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 .l1 {
+        justify-content: space-between;
+    }
+    #layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 div.card picture {
+        width: 20%;
+        margin-right:0px;
+    }
+    .main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card .card-body .row .col-lg-12 .l1 .np {
+        width: 40%;
+    }
+    .main-content .page-content .container-fluid.dash-angel .row.justify-content-center .col-xl-4 .card.financeiro .card-body .row.justify-content-center p {
+        width: 90%;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:374px) {
+        .main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex a.btn.btn-success {
+            padding:8px;
+        }
+        .main-content .page-content .container-fluid.dash-angel .row .col-xl-8 .card.d-flex .control.d-flex .texto {
+            width: 129px !important;
+        }
+    }
+}

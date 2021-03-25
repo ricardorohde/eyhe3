@@ -1,0 +1,97 @@
+.container.three .row .card-cartao {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FFF;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .col-sm-12.col-md-12 h4,
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .col-sm-12.col-md-12 p {
+    color: white !important;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .card-cartao .cartao input.car1 {
+    border: 0px !important;
+    margin: 0;
+    width: 100%;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .card-cartao .cartao {
+    display: flex;
+    border: 1px solid #DDD;
+    background-color: #FFF;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .card-cartao input,
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .card-cartao .divForm input {
+    margin-bottom: 10px;
+    border: 1px solid #DDD !important;
+    border-radius: 5px;
+    padding: 2px;
+    width: 100%;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .card-cartao input.name,
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .card-cartao input.cpf {
+    width: 100%;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .card-cartao .cartao picture {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 50%;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .card-cartao .cartao picture img {
+    width: 40px;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .card-cartao picture img {
+    width: 100%;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.white {
+    margin-top: 40px;
+    background-color: #FFF;
+    border-radius: 10px;
+    padding: 0;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.white .pagamento {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.white .pagamento a.btn {
+    background-color: #1094fd;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    padding: 5px 10px;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.white .pagamento a.btn picture img {
+    width: 40px;
+    margin-left: 15px;
+}
+.container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.white .doubt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 15px;
+}
+@media only screen and (min-width:320px) and (max-width:370px) {
+    .container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .card-cartao .cartao picture img {
+        display: none;
+    }
+    .container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.white .pagamento a.btn {
+        font-size: 15px !important;
+    }
+    .container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.white .pagamento a.btn picture img {
+        width: 30px !important;
+    }
+}
+@media only screen and (min-width:375px) and (max-width:425px) {
+    .container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.three .row .card-cartao .cartao picture img {
+        display: block !important;
+    }
+    .container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.white .pagamento a.btn {
+        font-size: 17px !important;
+    }
+    .container #form_container .row.no-gutters .col-lg-8 .wizard #wrapped #middle-wizard #end .container.white .pagamento a.btn picture img {
+        width: 30px !important;
+    }
+}

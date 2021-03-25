@@ -1,0 +1,146 @@
+label {
+    margin-bottom: 0px !important;
+}    
+/* Hide the browser's default radio button */
+.radiocontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}  
+#method, #confirmation, #sobCred, #sobDeb, #sobBol, #sobPix, #debit {
+    display: none;
+}
+#sobCred, #sobDeb, #sobBol, #sobPix {
+    height: 100% !important;
+    width: 100% !important;
+    background-color:#B7B7B7;
+    border-radius: 7px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.main-content .page-content.financial .container.financial .row.flex-column form.w-100 #amount .d-flex.flex-column input.cpf {
+    border: 1px solid #DDD;
+    border-radius:5px;
+    padding: .47rem .75rem;
+}
+.main-content .page-content.financial .container.financial .row.flex-column form.w-100 #method .d-flex.justify-content-center.align-items-center.financial {
+    margin-top: 35%;
+}
+.main-content .page-content.financial .container.financial .row.flex-column form.w-100 #method .d-flex.justify-content-center.align-items-center.financial a.btn {
+    width: 75%;
+}
+a.btn.btn-grey {
+    color: #727272;
+    background-color: #D8D8D8;
+}
+.main-content .page-content.financial {
+    padding: 70px 0px 10px 0px !important;
+
+}
+.main-content .page-content.financial .container.financial .row.flex-column .top {
+    background-color: #FFF;
+    padding: 20px 20px 0px 20px;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .top .d-flex.justify-content-center p.h5.d-flex.justify-content-center.align-items-center {
+    margin-right: 25px;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .top .d-flex.justify-content-center p.bonus {
+    background-color:  #D5FFD9;
+    color: #00DB16;
+    padding: 7px 14px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .top .nav {
+    padding-top: 30px;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .top .nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    padding: 0px 30px;
+    margin: 0;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .top .nav ul li {
+    padding: 10px 2px;
+    font-weight: bold;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .top .nav ul li:hover {
+    border-bottom: 4px solid #2f90ff;
+    transition: all 0.5s ease;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card {
+    margin-top: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card .d-flex.flex-column .input-group.mb-3 .input-group-prepend span.input-group-text {
+    background-color: #2f90ff;
+    color: #FFF;
+    border: none;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card .d-flex.justify-content-between {
+    margin-top: 20px;
+    padding: 0px 5px;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card .d-flex.justify-content-between .control,
+.main-content .page-content.financial .container.financial .row.flex-column .card .d-flex.justify-content-between .control1 {
+    width: 40%;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card .d-flex.justify-content-between .control .divCash {
+    padding: 8px 16px;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    border: 2px solid;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card .d-flex.justify-content-between .control .divCash p.cash {
+    margin-bottom: 0;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card .d-flex.justify-content-between .control1 .divCash1 {
+    padding: 8px 16px;
+    border: 2px solid #00DB16;
+    border-radius: 5px;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card .d-flex.justify-content-between .control1 .divCash1 p.cash {
+    margin-bottom: 0;
+    color: #00DB16;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card.method {
+    background-color:#f3f4f7;
+}
+#credito, #pix, #boleto, #debito {
+    width: 100%;
+    background-color:#FFF;
+    border-radius: 7px;
+    box-shadow: 1px 1px 7px 0px;
+}
+#credito, #pix, #debito {
+    padding: 15px 8px;
+}
+#boleto {
+    padding: 8.5px 8px;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card.method .d-flex.justify-content-between .cred {
+    width: 48%;
+    position: relative;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card.cart input {
+    width: 100%;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 4px 0px 4px 8px;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card.cart input.valor {
+    background-color: #DDD;
+    margin-bottom: 15%;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card.cart .input.d-flex.justify-content-between input {
+    width: 49.5%;
+}
+.main-content .page-content.financial .container.financial .row.flex-column .card.cart .input.d-flex.justify-content-between {
+    margin-top: 0px;
+    padding: 0;
+}

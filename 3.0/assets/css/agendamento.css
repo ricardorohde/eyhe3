@@ -1,0 +1,27 @@
+.main-content .page-content .container-fluid p.h5 {
+    padding: 0px 0px 20px 20px;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .seta {
+    justify-content: flex-end;
+    padding-right: 10%;
+    display: none;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .seta i {
+    font-size: 20px;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body .table-responsive .table.table-centered.table-nowrap.mb-0 tbody tr td a.btn.btn-blue {
+    border-radius: 30px;
+    width: 80%;
+}
+
+
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .main-content .page-content .container-fluid .row .col-lg-12 .seta {
+        display: flex;
+    }
+    .main-content .page-content .container-fluid .row .col-lg-12 .card .card-body .table-responsive .table.table-centered.table-nowrap.mb-0 tbody tr td a.btn.btn-blue  {
+        width: 100%;
+    }
+
+}

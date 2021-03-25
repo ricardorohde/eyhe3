@@ -1,0 +1,22 @@
+{
+    "sandbox": false,
+    "chave": "30847484000170",
+    "recebedor": "Eyhe Intermidiacao de Negocios Ltda",
+    "homologacao": {
+        "nome_certificado": "certificado-pix.pem",
+        "client_id": "Client_Id_1bcd4f88bf42a380798299511906e6cc5cc5ee4c",
+        "client_secret": "Client_Secret_5db83cf65cba0ede832a5b23475a3dee93836950",
+        "pix_url_auth": "https://api-pix-h.gerencianet.com.br/oauth/token",
+        "pix_url_cob": "https://api-pix-h.gerencianet.com.br/v2/cob",
+        "pix_url": "https://api-pix-h.gerencianet.com.br/v2/pix"
+    },
+    "producao": {
+        "nome_certificado": "certificado-pix.pem",
+        "client_id": "Client_Id_f36e771d1b4097e77d08ce8d728dfa49bb2f5fd3",
+        "client_secret": "Client_Secret_b820a1335cd899f1c1ff7fbe3ee6ab26d031c0d8",
+        "pix_url_auth": "https://api-pix.gerencianet.com.br/oauth/token",
+        "pix_url_auth": "https://api-pix.gerencianet.com.br/oauth/token",
+        "pix_url_cob": "https://api-pix.gerencianet.com.br/v2/cob",
+        "pix_url": "https://api-pix.gerencianet.com.br/v2/pix"
+    }
+}

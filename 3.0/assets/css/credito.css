@@ -1,0 +1,58 @@
+.main-content .page-content .container-fluid.credito {
+    padding: 3% 0%;
+}
+.main-content .page-content .container-fluid.credito .row p.h4 {
+    padding: 0px 0px 0.6% 2.2%;
+}
+.main-content .page-content .container-fluid.credito .row .card.two, .main-content .page-content .container-fluid.credito .row p.h4 {
+    width: 50%;
+}
+.main-content .page-content .container-fluid.credito .row .card.two {
+    display: flex;
+    align-items: center;
+}
+.main-content .page-content .container-fluid.credito .row .card.two form {
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    width: 80%;
+    padding: 20px;
+    justify-content: space-around;
+}
+.main-content .page-content .container-fluid.credito .row .card.two form .input {
+    display: flex;
+    justify-content: space-between;
+}
+.main-content .page-content .container-fluid.credito .row .card.two form .input input {
+    width: 49.5%;
+}
+.main-content .page-content .container-fluid.credito .row .card.two form input {
+    border-radius: 5px;
+    padding-left: 10px;
+    border: 2px solid #DDD;
+    margin-bottom: 10px;
+    height: 36px;
+}
+.main-content .page-content .container-fluid.credito .row .card.two a.btn.btn-blue {
+    width: 70% !important;
+}
+.main-content .page-content .container-fluid.credito .row .card.two picture {
+    text-align: center;
+}
+.main-content .page-content .container-fluid.credito .row .card.two picture,
+.main-content .page-content .container-fluid.credito .row .card.two a.btn.btn-blue {
+    margin-bottom: 20px;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .main-content .page-content .container-fluid.credito .row p.h4 {
+        width: 100%;
+        text-align: center;
+    }
+    .main-content .page-content .container-fluid.credito .row .card.two {
+        width: 95%;
+    }
+    .main-content .page-content .container-fluid.credito .row .card.two form {
+        width: 100%;
+    }
+}

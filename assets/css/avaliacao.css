@@ -1,0 +1,24 @@
+.main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card {
+    padding: 20px;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card .ava,
+.main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card {
+    margin-top: 3%;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card .ava p.h4,
+.main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card .ava p.h3 {
+    text-align: center;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card .ava div.d-flex.justify-content-center.align-items-center {
+    margin-bottom: 15px;
+}
+.main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card .ava div.d-flex.justify-content-center.align-items-center small picture img {
+    width: 120px;
+    height: auto;
+    border-radius: 0;
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body{
+  font-family: 'Muli', sans-serif;
+}
+
+
+#index{
+  background-color: #FFF;
+  overflow-y: hidden;
+}
+
+#logo-playing{
+  display: none;
+}
+
+.navbar-brand.logo{
+  display: inline;
+}
+
+#botao-mobile{
+  display: none;
+}
+
+.centralize.row{
+  margin-right: 0;
+  margin-left: 12% !important;
+}
+
+.button.btn{
+  background: #05E4D3;
+  border-radius: 20px;
+  padding: 10px 50px;
+  color: white;
+}
+
+.button.btn2{
+  background: #05E4D3;
+  border-radius: 20px;
+  padding: 10px 50px;
+}
+
+.button.button-negacao.btn.w-75.mb-2{
+  background: #fff;
+  border: 1px solid #333333;
+  color: #333333;
+  position: relative;
+  z-index: 10;
+}
+
+@media (max-width: 991.98px){
+
+  .centralize.row{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+
+  .space-grid{
+    margin-top: 0px; 
+  }
+
+  #botao-mobile{
+  display: inline-block;
+  }
+
+  .button.btn{
+    position: relative;
+    top: -80px;
+  }
+
+  .button.btn{
+    position: relative;
+    top: -80px;
+    font-size: 15px;
+  }
+
+  .btn.btn-info.mobile{
+    display: inline-block;
+  }
+
+  #logo-playing{
+    position: relative;
+    display: block;
+    top: 0;
+  }
+
+  .navbar-brand.logo{
+    display: none;
+  }
+
+  #signup-form{
+    background-color: #fff;
+  }
+
+  .main.container{
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 580px){
+  .align.navbar-toggler{
+    float: left;
+    font-size: 25px;
+    margin-top: 6px;
+  }
+
+  #sidebarCollapseDesktop{
+    margin-top: 8px;
+    float: right;
+  }
+
+  .align-logo{
+    float: left !important;
+    margin-left: 10px !important;
+  }
+
+  .logo-playing{
+    width: 80px;
+    height: 60px;
+    display: block;
+  }
+
+}

@@ -1,0 +1,395 @@
+html body {
+    background-color: #FFF !important;
+}
+header {
+    background-color: #2f90ff !important;
+}
+header .container.cadastro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+    max-width: 1300px;
+}
+header .container.cadastro picture, header .button {
+    width: 15%;
+}
+header .container.cadastro picture img {
+    width: 85px;
+}
+header .container.cadastro nav {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+header .container.cadastro nav ul {
+    width: 70%;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: bold;
+}
+header .container.cadastro .button.d-flex a.btn.btn-white,
+section.roxo .container .row .col-sm-6.col-md-6 picture img,
+section.blue .container .row .col-sm-6.col-md-6 picture img {
+    width: 90%;
+}
+.menu-mobile {
+    display: none !important;
+}
+section.captacao .container .row,
+section.blue .container .row,
+section.roxo .container .row,
+section.grey .container .row,
+section.yellow .container .row {
+    padding: 10% 0%;
+}
+section.captacao .container .row .col-sm-6.col-md-6 p.h1 {
+    width: 75%;
+    font-size: 40px;
+}
+section.captacao .container .row .col-sm-6.col-md-6 p,
+section.white .container .row .col-sm-6.col-md-6 .card {
+    width: 85%;
+}
+a.btn.btn-yellow {
+    background-color: #ffba2f;
+    width: 55%;
+    font-size: 17px;
+    padding: 10px;
+    color: #FFF;
+    border: 2px solid #ffba2f;
+    transition: all .5s linear;
+}
+a.btn.btn-yellow:hover {
+    background-color: #FFF;
+    color: #ffba2f;
+}
+section.captacao .container .row .col-sm-6.col-md-6 video {
+    width: 100% !important;
+}
+section.captacao .container .row .col-sm-6.col-md-6 p.h4 {
+    margin: 7% 0%;
+}
+section.blue {
+    background-color: #2f90ff !important;
+}
+section.blue .container .row .col-sm-6.col-md-6 picture {
+    border-color: #FFF;
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+section.blue .container .row .col-sm-6.col-md-6 p{
+    width: 80%;
+}
+section.blue .container .row .col-sm-6.col-md-6 p.h1 {
+    line-height: 45px;
+    font-size: 2.03125rem !important;
+}
+section.blue .container .row .col-sm-6.col-md-6 p {
+    font-size: 15px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+section.back {
+    padding: 5% 0%;
+    background-color: #f1f1f1;
+}
+section.white .container {
+    padding: 6% 0% 3% 0%;
+}
+section.white .container .row .col-sm-6.col-md-6 {
+    display: flex;
+    align-items: center;
+}
+section.white .container .row .col-sm-6.col-md-6 .card p {
+    width: 90%;
+    text-align: center;
+}
+section.white .container .row .col-sm-6.col-md-6 .card {
+    padding: 5%;
+    box-shadow: 0.4rem 0.2rem 1rem 0rem grey;
+    width: 474px;
+    height: 300px;
+}
+section.white .container .row .col-sm-6.col-md-6 .card.align-items-center.diff {
+    padding: 6%;
+}
+section.white .container .row .col-sm-6.col-md-6 .card.align-items-center picture img {
+    width: 75px;
+    margin-bottom: 15px;
+}
+section.white .container .btn a.btn.btn-roxo {
+    width: 35%;
+    padding: 10px;
+    background: #bd5aff;
+    border: 2px solid #bd5aff;
+    margin-top: 10%;
+    font-size: 17px;
+    transition: all .5s linear;
+}
+section.white .container .btn a.btn.btn-roxo:hover {
+    background: #FFF;
+    color: #bd5aff !important;
+}
+section.roxo, section.roxo2 {
+    background-color: #bd5aff;
+}
+section.roxo2 {
+    padding: 5% 0%;
+}
+section.roxo2 .container .row .col-sm-6 picture img {
+    width: 75%;
+}
+section.roxo .container .row .col-sm-6.col-md-6 p.h1 strong {
+    color:  #ffce2f;
+}
+section.roxo2 .container .row .col-sm-6 p.h1 {
+    margin-bottom: 25px;
+}
+section.roxo2 .container .row .col-sm-6 p.h1,
+section.roxo2 .container .row .col-sm-6 p.font {
+    color: #FFF !important;
+}
+section.roxo2 .container .row .col-sm-6 p.font {
+    font-size: 17px;
+}
+section.white .container p.h1 {
+    margin-bottom: 6%;
+    text-align: center;
+}
+section.roxo .container .row .col-sm-6.col-md-6,
+section.white .container .btn a.btn.btn-roxo,
+section.blue .container .row .col-sm-6.col-md-6 p,
+header .container.cadastro nav ul a li,
+section.roxo .container .row .col-sm-6.col-md-6 p.h1 {
+    color: #FFF !important;
+}
+section.roxo .container .row .col-sm-6.col-md-6 p.h1 {
+    margin-bottom: 25px;
+    font-size: 2.5rem !important;
+}
+section.roxo .container .row .col-sm-6.col-md-6 p {
+    font-size: 15px;
+}
+section.roxo .container .row .col-sm-6.col-md-6 picture {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+section.grey {
+    background-color: #f1f1f1;
+}
+section.grey .container .row p.h2 {
+    width: 50%;
+    text-align: center;
+}
+section.grey .container .row .bolao.d-flex .chats.two,
+section.grey .container .row .bolao.d-flex .chats  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+section.grey .container .row .bolao.d-flex .chats.one {
+    margin-right: 3%;
+}
+section.grey .container {
+    position: relative;
+}
+section.grey .container .btn a.btn.btn-yellow {
+    width: 35%;
+    margin-bottom: 7%;
+}
+section.yellow {
+    background-color: #ffba2f;
+}
+section.yellow .container .row .col-sm-4.col-md-4 p {
+    font-size: 18px;
+    color: #FFF;
+    line-height: 25px;
+}
+section.yellow .container .row .col-sm-4.col-md-4 {
+    max-width: 50%;
+    flex: 50%;
+    text-align: center;
+}
+section.yellow .container .row .col-sm-4.col-md-4 p.h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+section.yellow .container .row .col-sm-8.col-md-8 {
+    flex: 60%;
+    max-width: 60%;
+}
+
+section.yellow .container .row .col-sm-12.col-md-12 .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section.yellow .container .row .col-sm-12.col-md-12 .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    background: #000;
+}
+section.grey .container .row .circularMobile {
+    display: none;
+}
+section.back .container .row picture.mob {
+    display: none !important;
+}
+section.yellow .container .row.justify-content-center .col-sm-12.col-md-12 .swiper-container .swiper-wrapper .swiper-slide picture img {
+    width: 100%;
+}
+footer {
+    padding: 4% 0%;
+}
+footer .container-fluid .row .col-sm-3 a {
+    color: #495057;
+    margin-bottom: 15px;
+}
+footer .container-fluid .row .col-sm-3 div.d-flex {
+    width: 70%;
+    margin-top: 15px;
+}
+@media only screen and (min-width:320px) and (max-width:768px) {
+    footer .container-fluid .row .col-sm-3 {
+        padding: 20px 0px;
+    }
+    section.roxo2 .container .row .col-sm-6 p.h1 {
+        font-size: 25px;
+    }
+    section.white .container p.h1 {
+        font-size: 27px;
+        margin-bottom: 10%;
+    }
+    section.white .container {
+        padding: 13% 0% 10% 0%;
+    }
+    section.grey .container .row .circularMobile picture img, section.captacao .container .row .col-sm-6.col-md-6 p.h1, section.captacao .container .row .col-sm-6.col-md-6 p, a.btn.btn-yellow {
+        width: 100% !important;
+    }
+    section.back .container .row picture.mob {
+        display: flex !important;
+        width: 85% !important;
+    }
+    section.grey .container .row .circularMobile {
+        display: block !important;
+    }
+    section.back .container .row picture.desk {
+        display: none !important;
+    }
+    header .menu-mobile {
+        display: block !important;
+    }
+    section.margin {
+        margin-top: 70px;
+    }
+    header .container.cadastro {
+        display: none;
+    }
+    header .menu-mobile #page-topbar {
+        background-color: #2f90ff;
+    }
+    header .menu-mobile #page-topbar .navbar-header {
+        padding: 0;
+    }
+    header .menu-mobile #page-topbar .navbar-header .d-flex {
+        height: 100%;
+        width: 100%;
+    }
+
+    header .menu-mobile #page-topbar .navbar-header .d-flex .navbar-brand-box {
+        background-color: #FFF;
+    }
+    header .menu-mobile #page-topbar .navbar-header .d-flex .navbar-brand-box picture img {
+        width: 60px;
+        height: 47px;
+    }
+    header .menu-mobile #page-topbar .navbar-header .d-flex button i {
+        color: #FFF;
+    }
+    header .menu-mobile #page-topbar .navbar-header .d-flex .button.d-flex a.btn {
+        margin-right: 5%;
+    }
+    
+    section.grey .container .row .circular, section.grey .container .row .bolao.d-flex {
+        display: none !important;
+    }
+    section.captacao {
+        margin-top: 70px;
+    }
+    
+    section.captacao .container .row .col-sm-6.col-md-6 p.h1 {
+        font-size: 27px !important;
+    }
+    section.captacao .container .row .col-sm-6.col-md-6 p {
+        font-size: 13px;
+    }
+    section.captacao .container.d-flex.justify-content-center .row .col-sm-6.col-md-6 {
+        margin-top: 20px;
+    }
+    section.blue .container .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    section.blue .container .row .col-sm-6.col-md-6.d-flex.justify-content-center.align-items-center.flex-column,
+    section.blue .container .row .col-sm-6.col-md-6.d-flex.justify-content-center.align-items-center,
+    section.roxo .container .row .col-sm-6.col-md-6 {
+        padding:0;
+    }
+    section.blue .container .row .col-sm-6.col-md-6 p.h1 {
+        font-size: 24px !important;
+        line-height: 37px;
+    }
+    section.blue .container .row .col-sm-6.col-md-6 p, section.blue .container .row .col-sm-6.col-md-6 p.h1, section.blue .container .row .col-sm-6.col-md-6 picture img, section.grey .container .row p.h2 {
+        width: 100%;
+    }
+    section.blue .container .row .col-sm-6.col-md-6 p {
+        font-size: 14px;
+    }
+    section.white .container .row .col-sm-6.col-md-6 {
+        justify-content: center !important;
+    }
+    section.white .container .row,
+    section .container .row {
+        margin: 0;
+    }
+    section.white .container .btn a.btn.btn-roxo {
+        width: 90% !important;
+    }
+    section.white .container .row .col-sm-6.col-md-6 .card,
+    section.white .container .row .col-sm-6.col-md-6 .card p {
+        width: 95% !important;
+    }
+    section.roxo .container .row .col-sm-6.col-md-6 p.h1 {
+        font-size: 22px !important;
+    }
+    section.grey .container .row p.h2 {
+        font-size: 21px !important;
+    }
+    section.yellow .container .row .col-sm-8.col-md-8 {
+        max-width: 100%;
+        flex: 100%;
+    }
+    section.yellow .container .row .col-sm-4.col-md-4 {
+        max-width: 100%;
+        flex: 100%;
+    }
+    section.yellow .container .row .col-sm-4.col-md-4 p.h4 {
+        font-size: 25px;
+    }
+    section.yellow .container .row .col-sm-4.col-md-4 p {
+        font-size: 15px;
+    }
+}

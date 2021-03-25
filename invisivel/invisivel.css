@@ -1,0 +1,112 @@
+body {
+    background-color: #DDD;
+}
+    /*Define a altura e largura dos contêineres */
+    .base-timer {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+    /*Inverte o SVG e faz com que a animação se mova da esquerda para a direita*/
+    .base-timer__svg {
+    transform: scaleX(-1);
+}
+
+    /*Remove o estilo SVG que ocultaria o rótulo de tempo*/
+    .base-timer__circle {
+    fill: none;
+    stroke: none;
+}
+
+    /*O caminho SVG que mostra o progresso do cronômetro*/
+    .base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+}
+
+.base-timer__path-remaining {
+    /*Tão grosso quanto o anel original*/
+    stroke-width: 7px;
+    /*Arredonda as extremidades da linha para criar um círculo contínuo*/
+    stroke-linecap: round;
+    /*Garante que a animação comece no topo do círculo*/
+    transform: rotate(90deg);
+    transform-origin: center;
+    /*Um segundo se alinha com a velocidade do cronômetro de contagem regressiva*/
+    transition: 1s linear all;
+    /*Permite que o anel mude de cor quando o valor da cor é atualizado*/
+    stroke: currentColor;
+    fill-rule: nonzero;
+}
+
+.base-timer__path-remaining.green {
+    color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+    color: orange;
+}
+
+.base-timer__path-remaining.red {
+    color: red;
+}
+
+.base-timer__label {
+    position: absolute;
+    /* O tamanho deve corresponder ao contêiner pai */
+    width: 200px;
+    height: 200px;
+    /* Mantenha o rótulo alinhado ao topo */
+    top: 0;
+    /*Crie uma caixa flexível que centraliza o conteúdo vertical e horizontalmente*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Tipo de um número arbitrário; ajuste ao seu gosto */
+    font-size: 48px;
+}
+
+#number {
+    display: none;
+}
+#img {
+    height: 130px;
+    margin-left: 7%;
+}
+#app {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.text_one p, .text_two p, .text_three p {
+    text-align: center;
+}
+.text_one, .text_two, .text_three {
+    position: relative;
+    width: 45%;
+    display: none;
+    background-color: #FFF;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+svg.close {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+        
+/* 1º texto que irá aparecer*/
+.txt {
+    background-color: #FFF;
+    border-radius: 50%;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}

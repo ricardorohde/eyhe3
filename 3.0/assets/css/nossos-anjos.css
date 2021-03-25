@@ -1,0 +1,108 @@
+.main-content .page-content .row .col-xl-8 .card.search {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main-content .page-content .row .col-xl-8 .card {
+    display: flex;
+    flex-direction: row;
+    padding: 3.9% 2%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row.justify-content-center .col-xl-8 .card.mobile {
+    display: none;
+}
+.main-content .page-content .row .col-xl-8 .card .text-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .row .col-xl-8 .card .text-secondary p.green strong, .main-content .page-content .row .col-xl-8 .card .text-primary p {
+    color: #3d3d3d;
+    text-align: center;
+}
+div.main-content div.page-content div.container-fluid div.row div.col-xl-8 div.card.search form div.ls-custom-select {
+    margin-bottom: 20px;
+}
+div.main-content div.page-content div.container-fluid div.row div.col-xl-8 div.card.search form div.ls-custom-select select.ls-select {
+    border: 1px solid #DDD;
+    padding: 8px !important;
+    width: 320px !important;
+}
+.main-content .page-content .row .col-xl-8 .card .text-secondary p.green {
+    color: #5ce593;
+}
+.main-content .page-content .row .col-xl-8 .card .c-1, .main-content .page-content .row .col-xl-8 .card .c-2 {
+    width: 50%;
+}
+.main-content .page-content .row .col-xl-8 div.card picture.avatar {
+    padding: 0% 9%;
+}
+.main-content .page-content .row .col-xl-8 div.card picture.avatar img {
+    border-radius: 50%;
+    width: 140px !important;
+    height: 140px !important;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.main-content .page-content .row .col-xl-8 div.card div.text, .main-content .page-content .row .col-xl-8 div.card div.theme {
+    padding:0% 7%;
+}
+.main-content .page-content .row .col-xl-8 div.card .c-1 .text small picture img {
+    width: 30%;
+}
+#layout-wrapper .main-content .page-content .container-fluid .row .col-xl-8 .card.desktop div.c-1 div.text a.btn.btn-white {
+    width: 60% !important;
+}
+.main-content .page-content .row .col-xl-8 div.card .c-1 div.theme {
+    margin-top: 15px;
+}
+.main-content .page-content .row .col-xl-8 div.card div.theme div.theme_one.d-flex, .main-content .page-content .row .col-xl-8 div.card picture img {
+    width: 100%;
+}
+.main-content .page-content .row .col-xl-8 div.card div.theme div.theme_one.d-flex p.p1 {
+    margin-right: 7px;
+}
+.main-content .page-content .row .col-xl-8 div.card div.theme div.theme_one.d-flex p {
+    color: #FFF;
+    background-color: #A8A8A8;
+    border-radius: 30px;
+    padding: 0 4%;
+}
+.main-content .page-content .row .col-xl-8 .card .c-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.main-content .page-content .row .col-xl-8 .card .c-2 .talk {
+    display: flex;
+}
+.main-content .page-content .row .col-xl-8 .card .c-2 .talk p {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.main-content .page-content .row .col-xl-8 .card .c-2 .talk .foto {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.main-content .page-content .row .col-xl-8 .card .c-2 .talk picture {
+    width: 50px;
+}
+.main-content .page-content .container-fluid .row .col-xl-8 .card .c-2 p.c2-p2 {
+    margin: 10px 0px 20px 0px !important;
+    padding: 0% 15% 0% 0% !important;
+}
+.main-content .page-content .row .col-xl-8 div.card div.buttons {
+    margin-bottom: 7%;
+}
+.main-content .page-content .row .col-xl-8 div.card div.buttons a.btn.btn-blue, .main-content .page-content .row .col-xl-8 div.card div.buttons a.btn.btn-primary {
+    width: 80%;
+}
+.main-content .page-content .row .col-xl-8 div.card div.buttons a.btn.btn-blue {
+    margin-bottom: 3%;
+}
+.main-content .page-content .container-fluid .row .col-xl-8 .card .c-2 .value p.strong {
+    color: #2f90ff !important;
+}

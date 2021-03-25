@@ -1,0 +1,15 @@
+.main-content #exampleModal.modal .modal-dialog.modal-dialog-centered .modal-content .modal-body.d-flex.flex-column.align-items-center picture img#img {
+    width: 100%;
+    margin-bottom: 30px;
+    height: auto;
+}
+.main-content #exampleModal.modal .modal-dialog.modal-dialog-centered .modal-content .modal-body.d-flex.flex-column.align-items-center p.h4,
+.main-content #exampleModal.modal .modal-dialog.modal-dialog-centered .modal-content .modal-body.d-flex.flex-column.align-items-center p.txt {
+    text-align: center;
+}
+.main-content #exampleModal.modal .modal-dialog.modal-dialog-centered .modal-content .modal-body.d-flex.flex-column.align-items-center p.txt {
+    width: 65%;
+}
+.main-content #exampleModal.modal .modal-dialog.modal-dialog-centered .modal-content .modal-footer.d-flex.justify-content-center a.btn.btn-success {
+    width: 40%;
+}

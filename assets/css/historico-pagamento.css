@@ -1,0 +1,21 @@
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body .table-responsive table.table.table-centered.table-nowrap.mb-0 tbody tr td.dez {
+    width: 10% !important;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body .table-responsive table.table.table-centered.table-nowrap.mb-0 tbody tr td.dez7 {
+    width: 17%;
+}
+div#drop, div#dro, div#dr, div#d, div#dropd, div#dropdo, div#f1 {
+    left: -80px !important;
+}
+.main-content .page-content .container-fluid .row .col-lg-12 .card .card-body .table-responsive table.table.table-centered.table-nowrap.mb-0 tbody tr td .dropdown button#dropdownMenuButton {
+    padding: 5px;
+    border-radius: 20px;
+    width: 90%;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+/* historico de pagamento */
+    .dropdown-menu[x-placement^=bottom], .dropdown-menu[x-placement^=left], .dropdown-menu[x-placement^=right], .dropdown-menu[x-placement^=top]{
+        left: -130px !important;   
+    }
+}

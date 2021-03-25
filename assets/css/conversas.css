@@ -1,0 +1,83 @@
+
+html body #layout-wrapper .main-content.conversas .page-content.conversas .container-fluid.conversas h4.h5.conversas {
+    padding-left: 15%;
+    margin-bottom: 20px;
+}
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card {
+    width: 75%;
+}
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12
+{
+    text-align: center !important;
+}
+
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 picture img {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50%;
+    object-fit: cover;
+}
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 a.btn.btn-primary.btn-white,
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row  {
+    align-items: center;
+}
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 .dropdown {
+    width: 30% !important;
+}
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 a.btn.btn-primary.btn-white,
+header#page-topbar .navbar-header .d-flex .dropdown.dropdown-mega.d-none.d-lg-block.ml-2 a.btn.btn-white {
+    height: 35px;
+}
+
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 a.btn.btn-primary.btn-white,
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row  {
+    display: flex;
+    justify-content: center;
+}
+
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 a.btn.btn-primary.btn-white,
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 .dropdown .dropdown-menu {
+    width: 100% !important;
+}
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 .dropdown .dropdown-menu a.dropdown-item {
+    text-align: center;
+}
+
+html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 .np p {
+    margin: 0 !important;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card {
+        width: 100%;
+    }
+    html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 .dropdown .dropdown-menu a.dropdown-item.last {
+        padding: 12px;
+    }
+
+ @media only screen and (min-width:320px) and (max-width: 374px) {
+ .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 .dropdown.show .dropdown-menu.show {
+            left: -113px !important;
+        }
+        html body #layout-wrapper .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body {
+            padding: 5px;
+        }
+    }
+    @media only screen and (min-width:375px) and (max-width: 419px) {
+        .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 .dropdown.show .dropdown-menu.show {
+            left: -110px !important;
+        }
+    }
+
+    @media only screen and (min-width:420px) and (max-width: 500px) {
+        .main-content .page-content.conversas .container-fluid.conversas .row .card .card-body .row .col-lg-12 .l1 .dropdown.show .dropdown-menu.show {
+            left: -95px !important;
+        } 
+
+    }
+}    

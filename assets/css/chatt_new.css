@@ -1,0 +1,60 @@
+
+/* cupom */
+#close7 {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#cupom {
+    display: none;
+    height: 330px;
+    width: 40%;
+    margin-left: 10px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#cupom p {
+    text-align: center;
+}
+#cupom form {
+    width: 50%;
+}
+#exampleFormControlSelect1 {
+    padding-left: 25px;
+}
+
+
+#exampleModalCenter .modal-dialog .modal-content .modal-body picture img {
+    width: 250px;
+    margin-bottom: 20px;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body .cupom {
+    width: 25%;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 1px black;
+    padding: 10px 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-body p.p {
+    width: 70%;
+    text-align: center;
+}
+#exampleModalCenter .modal-dialog .modal-content .modal-header h5 {
+    width: 100%;
+    text-align: center;
+}
+/* cupom end */
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    
+    #cupom {
+        margin-left: 0;
+    }
+    #cupom {
+        width: 100%;
+    }
+}

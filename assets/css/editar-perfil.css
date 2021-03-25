@@ -1,0 +1,73 @@
+#layout-wrapper .main-content .page-content .container-fluid.editar-perfil .row .card form .iti {
+    width: 90%;
+    margin-bottom: 15px;
+}
+#telefone {
+    width: 100%;
+    padding-left: 10%;
+}
+input:focus {
+    outline: none;
+}
+.main-content .page-content .container-fluid.editar-perfil .row,
+.main-content .page-content .container-fluid.editar-perfil .row .card {
+    justify-content: center;
+    align-items: center;
+}
+.main-content .page-content .container-fluid.editar-perfil .row .card {
+    max-width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.main-content .page-content .container-fluid.editar-perfil .row .card .history,
+.main-content .page-content .container-fluid.editar-perfil .row .card .password,
+.main-content .page-content .container-fluid.editar-perfil .row .card picture,
+.main-content .page-content .container-fluid.editar-perfil .row .card .foto  {
+    margin-bottom: 30px;
+}
+.main-content .page-content .container-fluid.editar-perfil .row .card form {
+    width: 100%;
+}
+.main-content .page-content .container-fluid.editar-perfil .row .card form input {
+    width: 90%;
+    border-radius: 7px;
+    border: 1px solid #DDD;
+    padding: 5px 5px 5px 10px;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.main-content .page-content .container-fluid.editar-perfil .row .card form,
+.main-content .page-content .container-fluid.editar-perfil .row .card .history,
+.main-content .page-content .container-fluid.editar-perfil .row .card .password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content .page-content .container-fluid.editar-perfil .row .card .history p.p2,
+.main-content .page-content .container-fluid.editar-perfil .row .card .password p.p2  {
+    width: 70%;
+    text-align: center;
+}
+.main-content .page-content .container-fluid.editar-perfil .row .card .history textarea {
+    width: 90%;
+    height: 100px;
+}
+.main-content .page-content .container-fluid.editar-perfil .row .card .foto #upload {
+    display: none;
+}
+.main-content .page-content .container-fluid.editar-perfil .row .card .foto {
+    cursor:pointer;
+}
+.main-content .page-content .container-fluid.editar-perfil .row .card .foto img#img {
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width:320px) and (max-width:768px) {
+    .main-content .page-content .container-fluid.editar-perfil .row .card .history p.p2,
+    .main-content .page-content .container-fluid.editar-perfil .row .card .password p.p2  {
+        width: 100%;
+    }
+}
